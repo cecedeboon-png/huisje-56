@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/cecedeboon/Desktop/Intrinsiq/platform log --oneline -10)",
+      "Bash(wc:*)",
+      "Bash(python3:*)",
+      "Bash(unzip:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "WebFetch(domain:www.intrinsiq.com)",
+      "Bash(node -e:*)",
+      "Bash(./node_modules/.bin/tsc:*)",
+      "Bash(node ./node_modules/.bin/tsc:*)",
+      "Bash(PLATFORM=\"/Users/cecedeboon/Desktop/Intrinsiq/platform\")",
+      "Bash(node:*)",
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(sqlite3:*)",
+      "Bash(find /Users/cecedeboon/Desktop/Intrinsiq/platform/app -type f -name \"route.ts\" -exec basename {} ;)",
+      "Bash(grep -n \"waterfall\\\\|Sector\\\\|allocation\" /Users/cecedeboon/Desktop/Intrinsiq/platform/app/lp-report/[fundId]/page.tsx)",
+      "Bash(grep -A 100 \"Sector allocation\" /Users/cecedeboon/Desktop/Intrinsiq/platform/app/lp-report/[fundId]/page.tsx)",
+      "Bash(npm run build)",
+      "Bash(gh --version)",
+      "Bash(gh auth status)",
+      "Bash(git -C /Users/cecedeboon/intrinsiq status)",
+      "Bash(npm --version)",
+      "WebFetch(domain:next-intl.dev)",
+      "WebFetch(domain:react-day-picker.js.org)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)"
+    ]
+  }
+}

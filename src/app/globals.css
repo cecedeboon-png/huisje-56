@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy: #1B3A5C;
+    --color-terracotta: #C0785C;
+    --color-sage: #7A9E7E;
+    --color-background: #F8F6F2;
+    --color-text: #2D2D2D;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-[#2D2D2D] font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-navy text-white px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-200 hover:bg-navy-600 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 bg-transparent text-navy border border-navy px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-200 hover:bg-navy hover:text-white;
+  }
+
+  .btn-terracotta {
+    @apply inline-flex items-center gap-2 bg-terracotta text-white px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-200 hover:bg-terracotta-500 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-content {
+    @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .card {
+    @apply bg-white rounded-sm shadow-sm border border-stone-100 overflow-hidden;
+  }
+
+  .form-input {
+    @apply w-full border border-stone-200 bg-white px-4 py-3 text-sm font-body text-[#2D2D2D] placeholder:text-stone-400 focus:outline-none focus:border-navy focus:ring-1 focus:ring-navy transition-colors rounded-sm;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-[#2D2D2D] mb-1.5 font-body;
+  }
+}
+
+/* react-day-picker custom styles */
+.rdp-root {
+  --rdp-accent-color: #1B3A5C;
+  --rdp-accent-background-color: #E8EFF6;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.rdp-day_button:hover {
+  background-color: #E8EFF6;
+}
+
+.rdp-selected .rdp-day_button {
+  background-color: #1B3A5C !important;
+  color: white !important;
+}
+
+.rdp-range_middle .rdp-day_button {
+  background-color: #C5D6E9 !important;
+  color: #1B3A5C !important;
+}
+
+.rdp-disabled .rdp-day_button {
+  background-color: #F3F3F3 !important;
+  color: #C9C9C9 !important;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}

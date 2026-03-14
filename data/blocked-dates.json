@@ -1,0 +1,19 @@
+{
+  "lastUpdated": "2026-03-14T10:00:00Z",
+  "blockedRanges": [
+    {
+      "id": "example-booking-1",
+      "from": "2026-07-04",
+      "to": "2026-07-18",
+      "label": "Voorbeeld boeking zomer",
+      "isBooked": true
+    },
+    {
+      "id": "example-booking-2",
+      "from": "2026-08-01",
+      "to": "2026-08-15",
+      "label": "Voorbeeld boeking augustus",
+      "isBooked": true
+    }
+  ]
+}

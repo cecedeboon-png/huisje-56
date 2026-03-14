@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Home",
+    "cottage": "The Cottage",
+    "area": "The Area",
+    "booking": "Prices & Book",
+    "contact": "Contact",
+    "bookNow": "Check availability"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Charming waterfront cottage in Gaastmeer",
+      "headline": "Huisje 56",
+      "subheadline": "Your own terrace on the water, views across Lake Gaastmeer, and the freedom of car-free Recreatiepark de Liuwe Daem.",
+      "ctaBook": "Check availability",
+      "ctaDiscover": "Discover the cottage"
+    },
+    "intro": {
+      "heading": "Welcome to Huisje 56",
+      "body": "Welcome to Huisje 56, our charming holiday cottage on the waterfront in Gaastmeer, Friesland. Step onto your private terrace, watch the boats drift by, and feel the pace of life slow down. The park is car-free, the lake is at your doorstep, and the Frisian countryside stretches out in every direction. This is where your holiday begins."
+    },
+    "highlights": {
+      "jetty": {
+        "title": "Private jetty",
+        "desc": "Sail directly onto Lake Gaastmeer from your own jetty. Mooring up to approximately 10 metres."
+      },
+      "carFree": {
+        "title": "Car-free park",
+        "desc": "Your car stays safely in the car park. Bring luggage to the cottage by trolley — blissful peace and quiet."
+      },
+      "guests": {
+        "title": "Up to 10 guests",
+        "desc": "Four bedrooms, a baby room and a sofa bed in the living room. Space for the whole family."
+      },
+      "location": {
+        "title": "Waterfront location",
+        "desc": "Decked terrace with panoramic views across Lake Gaastmeer and the iconic pyramid-shaped cottages."
+      }
+    },
+    "photoGrid": {
+      "heading": "A glimpse inside",
+      "subheading": "From the waterfront terrace to the cosy bedrooms",
+      "cta": "View all photos"
+    },
+    "park": {
+      "heading": "Recreatiepark de Liuwe Daem",
+      "body": "Liuwedaem is a small-scale park with 56 characteristic pyramid-shaped cottages, right on the shores of the Great Gaastmeer. Since 1974, families have been enjoying peace, water and space here. The park is car-free — you park at the car park and bring your belongings to the cottage by trolley. It takes a little getting used to, but it creates wonderful tranquility. Children can run around freely, and you can hear only the water and the birds.",
+      "features": [
+        "Car-free park for maximum peace",
+        "Children's play and swimming area",
+        "4 EV charging points",
+        "Boat lift available for homeowners",
+        "Open grounds — no hedges or fences",
+        "Own parking space at the entrance"
+      ]
+    },
+    "testimonials": {
+      "heading": "What guests say",
+      "items": [
+        {
+          "quote": "The view across the lake was breathtaking. The kids played on the terrace and went out on the water all week. Absolutely coming back!",
+          "author": "The Van der Berg family",
+          "location": "Amsterdam",
+          "year": "2025"
+        },
+        {
+          "quote": "Such peace and quiet! The car-free park really makes a difference. We had lovely dinners on the terrace with views across the water.",
+          "author": "Marieke & Pieter",
+          "location": "Utrecht",
+          "year": "2025"
+        },
+        {
+          "quote": "Perfect for a family week. Plenty of room for everyone, private jetty and the village of Gaastmeer within walking distance. Highly recommended!",
+          "author": "The Smits family",
+          "location": "Eindhoven",
+          "year": "2024"
+        }
+      ]
+    }
+  },
+  "cottage": {
+    "heading": "The Cottage",
+    "subheading": "Detached A-frame pyramid cottage directly on the water",
+    "intro": "Huisje 56 is a detached pyramid-shaped cottage with a wooden frame and pitched roof, built in 1974 and modernised over the years. With approximately 70 m² of living space and a plot of 85 m², it comfortably accommodates up to 8-10 persons. The generous decked terrace directly on the water makes every morning a delight.",
+    "specs": {
+      "heading": "At a glance",
+      "items": {
+        "area": "~70 m² living space",
+        "plot": "85 m² plot",
+        "capacity": "Max. 8-10 persons",
+        "bedrooms": "4 bedrooms + baby room",
+        "built": "Built approx. 1974 (modernised)",
+        "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
+      }
+    },
+    "floors": {
+      "groundFloor": {
+        "label": "Ground floor",
+        "rooms": {
+          "entrance": { "name": "Entrance / hallway", "desc": "Spacious entrance with ample storage for coats and shoes." },
+          "livingRoom": { "name": "Living room (approx. 24 m²)", "desc": "Light, open living room with red sofa bed, exposed wooden beams and sliding doors leading to the waterfront terrace. The perfect spot for evenings together." },
+          "kitchen": { "name": "Open kitchen", "desc": "Fully equipped open kitchen, directly connected to the living room." },
+          "bedroom1": { "name": "Bedroom (ground floor)", "desc": "Ground floor bedroom with 2 single beds. Ideal for guests who prefer to avoid the stairs." },
+          "bathroom": { "name": "Bathroom", "desc": "Bathroom with walk-in shower, washbasin and a designer heated towel rail." }
+        }
+      },
+      "firstFloor": {
+        "label": "First floor",
+        "rooms": {
+          "landing": { "name": "Landing with mezzanine", "desc": "Airy landing with open mezzanine — the typical feature of a pyramid cottage." },
+          "bedroom2": { "name": "Bedroom 1", "desc": "2 single beds with blue duvets." },
+          "bedroom3": { "name": "Bedroom 2", "desc": "2 single beds with light blue duvets." },
+          "bedroom4": { "name": "Bedroom 3", "desc": "1 single bed with red checked duvet." },
+          "babyRoom": { "name": "Baby room / extra room", "desc": "Separate room with baby cot and sofa bed — ideal for a family with a baby or toddler." }
+        }
+      },
+      "outdoor": {
+        "label": "Outside",
+        "rooms": {
+          "terrace": { "name": "Decked terrace", "desc": "Generous decked terrace directly on the water with dining table and chairs. Panoramic views across the lake and the iconic pyramid-shaped cottages." },
+          "jetty": { "name": "Private jetty", "desc": "Mooring for approximately 10 metres. Water depth approximately 1.5 metres. Sail directly onto Lake Gaastmeer, Ringwiel, Zandmeer and the Fluessen." }
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Photo gallery",
+      "subheading": "See the cottage inside and out",
+      "open": "Open photo",
+      "previous": "Previous",
+      "next": "Next",
+      "close": "Close"
+    },
+    "amenities": {
+      "heading": "Amenities",
+      "items": {
+        "heating": "Central heating (CH)",
+        "doubleGlazing": "Double glazing",
+        "furnished": "Furnished",
+        "kitchen": "Fully equipped kitchen",
+        "bathroom": "Bathroom with shower",
+        "washer": "Washing machine connection",
+        "tv": "TV / Netflix",
+        "wifi": "WiFi",
+        "jetty": "Private jetty",
+        "terrace": "Waterfront terrace",
+        "baby": "Baby cot available",
+        "parking": "Private parking space",
+        "ev": "EV charging point on park",
+        "playground": "Play & swim area on park",
+        "boatlift": "Boat lift on park"
+      }
+    }
+  },
+  "area": {
+    "heading": "The Area",
+    "subheading": "Water, nature and Frisian charm on your doorstep",
+    "intro": "Gaastmeer is situated in the heart of the Frisian Lakes — one of the most beautiful waterway regions in the Netherlands. From your own jetty you sail directly onto Lake Gaastmeer and from there to dozens of other lakes, pools and waterways. But there is plenty to do on land too: picturesque villages, historic towns and endless cycling routes through the Frisian landscape.",
+    "watersports": {
+      "heading": "Water & Sailing",
+      "body": "With the Gaastmeer lakes right at your door, the Oudegaster Brekken around the corner, and the Heegermeer and Fluessen — a magnificent sailing area — within reach. Whisper-boat routes have expanded greatly in recent years, ideal for short trips. You can hire boats in the village.",
+      "activities": [
+        "Sailing on the Frisian lakes",
+        "Kayaking and paddleboarding",
+        "Fishing in the area",
+        "Hire a whisper boat in Gaastmeer",
+        "Open waterway connection to the entire Frisian lake district",
+        "Ice skating in winter (on the lakes!)"
+      ]
+    },
+    "cycling": {
+      "heading": "Cycling & Walking",
+      "body": "The area is ideal for cycling through the typical Frisian polder landscape. The route via It Heidenskip to Workum is an absolute must — gorgeous views, quiet roads and lovely villages along the way.",
+      "activities": [
+        "Cycling route via Heidenskip to Workum",
+        "Walking through the Frisian landscape",
+        "Cycling and foot ferries across the lakes",
+        "Watching Skûtsjesilen (traditional Frisian event)"
+      ]
+    },
+    "towns": {
+      "heading": "Villages & Towns",
+      "intro": "Gaastmeer has only about 300 inhabitants — ultimate peace. But around it lie beautiful villages and historic towns just a few minutes' drive away.",
+      "items": {
+        "gaastmeer": { "name": "Gaastmeer", "distance": "Walking distance", "desc": "Voted Most Beautiful Village in Friesland in 2016. Small supermarket, fish & chips stall, boat hire and pleasant terraces." },
+        "heeg": { "name": "Heeg", "distance": "~5 min drive", "desc": "The ultimate watersports village. Plenty of shops, restaurants and a lively harbour." },
+        "sneek": { "name": "Sneek", "distance": "~15 min drive", "desc": "Historic Frisian city with a lovely town centre, good shops and interesting museums." },
+        "workum": { "name": "Workum", "distance": "~15 min drive", "desc": "Charming artists' town with the Jopie Huisman Museum — an absolute must." },
+        "bolsward": { "name": "Bolsward", "distance": "~20 min drive", "desc": "Historic Frisian town with a stunning town hall and the Martini Church." },
+        "leeuwarden": { "name": "Leeuwarden", "distance": "~30 min drive", "desc": "Capital of Friesland. Museums, shops and a lively city centre." }
+      }
+    },
+    "distances": {
+      "heading": "Distances",
+      "byBike": "By bicycle",
+      "byCar": "By car",
+      "items": {
+        "gaastmeerVillage": { "name": "Gaastmeer village", "bike": "5 min", "car": "2 min" },
+        "heeg": { "name": "Heeg", "bike": "25 min", "car": "5 min" },
+        "sneek": { "name": "Sneek", "bike": "55 min", "car": "15 min" },
+        "workum": { "name": "Workum", "bike": "60 min", "car": "15 min" },
+        "amsterdam": { "name": "Amsterdam", "bike": null, "car": "~1.5 hrs" },
+        "duesseldorf": { "name": "Düsseldorf", "bike": null, "car": "~2.5 hrs" }
+      }
+    },
+    "map": {
+      "heading": "Location",
+      "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
+    }
+  },
+  "booking": {
+    "heading": "Prices & Book",
+    "subheading": "Check availability and send your enquiry",
+    "intro": "We rent Huisje 56 directly — no booking fees. Send us an enquiry for the period you wish and we will be in touch as soon as possible.",
+    "pricing": {
+      "heading": "Rates",
+      "note": "Prices are per week unless otherwise stated. Minimum 3 nights outside high season.",
+      "seasons": {
+        "low": { "label": "Low season", "period": "November – March (excl. Christmas/New Year)", "weekPrice": "€ 695", "nightPrice": "€ 99", "minNights": "3 nights" },
+        "mid": { "label": "Mid season", "period": "April, May, September, October", "weekPrice": "€ 895", "nightPrice": "€ 128", "minNights": "4 nights" },
+        "high": { "label": "High season", "period": "June, July, August", "weekPrice": "€ 1,195", "nightPrice": "€ 171", "minNights": "7 nights (Sat–Sat)" },
+        "peak": { "label": "Holidays & School breaks", "period": "Christmas, New Year, spring, May & autumn half-terms", "weekPrice": "€ 1,095", "nightPrice": "€ 156", "minNights": "5 nights" }
+      },
+      "extras": {
+        "heading": "Additional costs",
+        "cleaning": "Final cleaning: € 95",
+        "deposit": "Security deposit: € 250 (returned after stay)",
+        "energy": "Energy costs: based on consumption (summer approx. € 30-50/week)",
+        "tourist": "Tourist tax: € 1.50 p.p.p.n."
+      }
+    },
+    "calendar": {
+      "heading": "Availability calendar",
+      "subheading": "Select your desired period",
+      "available": "Available",
+      "unavailable": "Booked",
+      "selected": "Selected",
+      "instruction": "Click an arrival date, then a departure date"
+    },
+    "form": {
+      "heading": "Booking enquiry",
+      "subheading": "Fill in the form and we will contact you as soon as possible",
+      "name": "Name *",
+      "email": "Email address *",
+      "phone": "Phone number",
+      "arrivalDate": "Arrival date *",
+      "departureDate": "Departure date *",
+      "guests": "Number of guests *",
+      "message": "Comments or questions",
+      "submit": "Send enquiry",
+      "submitting": "Sending...",
+      "success": "Thank you for your enquiry! We will be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or email us directly."
+    }
+  },
+  "contact": {
+    "heading": "Contact",
+    "subheading": "Have a question or want to know more? We are happy to help.",
+    "intro": "Have a question about the cottage, the area or availability? Feel free to contact us via the form or send an email. We usually respond within one working day.",
+    "form": {
+      "name": "Name *",
+      "email": "Email address *",
+      "subject": "Subject *",
+      "message": "Message *",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thank you! We will be in touch as soon as possible.",
+      "error": "Something went wrong. Please email info@huisje56.nl"
+    },
+    "info": {
+      "heading": "Contact details",
+      "address": "Liuwedaem 56\n8611 JJ Gaastmeer\nFriesland",
+      "email": "info@huisje56.nl",
+      "phone": "+31 6 00 00 00 00"
+    },
+    "route": {
+      "heading": "Directions",
+      "intro": "On arrival, park in the car park at the entrance. You will find trolleys there to bring your luggage to the cottage — typical of car-free Liuwedaem!",
+      "byCarAmsterdam": "From Amsterdam (~1.5 hrs): A7 towards Leeuwarden, exit Sneek-West, via Heeg to Gaastmeer.",
+      "byCarGermany": "From Germany: A31 or A7 towards the Netherlands, via Heerenveen towards Sneek, then to Gaastmeer.",
+      "gps": "GPS: Liuwedaem 56, Gaastmeer (then follow signs to Liuwedaem)"
+    }
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience on our website. Google Maps will only load after your consent.",
+    "accept": "Accept",
+    "reject": "Necessary only",
+    "learnMore": "Learn more"
+  },
+  "common": {
+    "readMore": "Read more",
+    "backToTop": "Back to top",
+    "loading": "Loading...",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "nights": "nights",
+    "night": "night",
+    "guests": "guests",
+    "guest": "guest",
+    "perNight": "per night",
+    "perWeek": "per week",
+    "from": "From",
+    "to": "to",
+    "send": "Send",
+    "required": "required"
+  },
+  "meta": {
+    "siteName": "Huisje 56 Gaastmeer",
+    "home": {
+      "title": "Huisje 56 Gaastmeer | Holiday cottage on the water in Friesland",
+      "description": "Waterfront holiday cottage in Gaastmeer, Friesland. Private jetty, terrace on the water, 4 bedrooms for 8-10 persons. Car-free park."
+    },
+    "cottage": {
+      "title": "The Cottage | Huisje 56 Gaastmeer",
+      "description": "Detached A-frame pyramid cottage with 4 bedrooms and baby room. Private jetty and terrace on the water. View all photos and amenities."
+    },
+    "area": {
+      "title": "The Area | Huisje 56 Gaastmeer",
+      "description": "Discover the Frisian lakes from Gaastmeer. Sailing, kayaking, cycling and historic villages — all within cycling distance of Huisje 56."
+    },
+    "booking": {
+      "title": "Prices & Book | Huisje 56 Gaastmeer",
+      "description": "View rates and availability for Huisje 56 in Gaastmeer. Send a booking enquiry for your desired period."
+    },
+    "contact": {
+      "title": "Contact | Huisje 56 Gaastmeer",
+      "description": "Contact Huisje 56 in Gaastmeer. Questions about availability, rates or the location? We are happy to help."
+    }
+  }
+}

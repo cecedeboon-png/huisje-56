@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "cottage": "Das Ferienhaus",
+    "area": "Die Umgebung",
+    "booking": "Preise & Buchen",
+    "contact": "Kontakt",
+    "bookNow": "Verfügbarkeit prüfen"
+  },
+  "home": {
+    "hero": {
+      "tagline": "Gemütliches Ferienhaus am Wasser in Gaastmeer",
+      "headline": "Huisje 56",
+      "subheadline": "Ihre eigene Terrasse am See, Blick über den Gaastmeer und die Freiheit des autofreien Ferienparks de Liuwe Daem.",
+      "ctaBook": "Verfügbarkeit prüfen",
+      "ctaDiscover": "Das Ferienhaus entdecken"
+    },
+    "intro": {
+      "heading": "Willkommen im Huisje 56",
+      "body": "Willkommen im Huisje 56, unserem gemütlichen Ferienhaus direkt am Wasser in Gaastmeer, Friesland. Stellen Sie sich vor: Aufwachen mit Blick auf den See, Kaffee trinken auf Ihrer eigenen Terrasse, während die Enten vorbeischwimmen. Der Park ist autofrei und umgeben von wunderschöner friesischer Natur. Hier finden Sie Ruhe, Weite und Freiheit."
+    },
+    "highlights": {
+      "jetty": {
+        "title": "Eigener Bootssteg",
+        "desc": "Fahren Sie direkt auf den Gaastmeer von Ihrem eigenen Steg. Anlegemöglichkeit bis ca. 10 Meter."
+      },
+      "carFree": {
+        "title": "Autofreier Park",
+        "desc": "Ihr Auto steht sicher auf dem Parkplatz. Gepäck bringen Sie mit einem Bollerwagen zum Haus — herrliche Ruhe."
+      },
+      "guests": {
+        "title": "Bis zu 10 Personen",
+        "desc": "Vier Schlafzimmer, ein Babyzimmer und eine Schlafcouch im Wohnzimmer. Platz für die ganze Familie."
+      },
+      "location": {
+        "title": "Direkt am Wasser",
+        "desc": "Stegterrasse mit Panoramablick über den Gaastmeer und die ikonischen Pyramidenhäuser."
+      }
+    },
+    "photoGrid": {
+      "heading": "Ein Blick hinein",
+      "subheading": "Von der Seeterrasse bis zu den gemütlichen Schlafzimmern",
+      "cta": "Alle Fotos ansehen"
+    },
+    "park": {
+      "heading": "Ferienpark de Liuwe Daem",
+      "body": "Liuwedaem ist ein kleiner Park mit 56 charakteristischen Pyramidenhäusern, direkt am Großen Gaastmeer. Seit 1974 genießen Familien hier Ruhe, Wasser und Raum. Der Park ist autofrei — Sie parken auf dem Parkplatz und bringen Ihr Gepäck mit einem Bollerwagen zum Haus. Gewöhnungsbedürftig vielleicht, aber es sorgt für herrliche Stille. Kinder können frei herumlaufen, und man hört nur das Wasser und die Vögel.",
+      "features": [
+        "Autofreier Park für maximale Ruhe",
+        "Spiel- und Schwimmbereich im Park",
+        "4 Ladestationen für Elektroautos",
+        "Bootslift für Hausbesitzer verfügbar",
+        "Offenes Gelände — keine Hecken oder Zäune",
+        "Eigener Parkplatz am Eingang"
+      ]
+    },
+    "testimonials": {
+      "heading": "Was Gäste sagen",
+      "items": [
+        {
+          "quote": "Der Blick über den See war atemberaubend. Die Kinder haben die ganze Woche auf der Terrasse gespielt und sind aufs Wasser gefahren. Absolut wieder!",
+          "author": "Familie Van der Berg",
+          "location": "Amsterdam",
+          "year": "2025"
+        },
+        {
+          "quote": "So eine Ruhe! Der autofreie Park macht wirklich den Unterschied. Wir haben herrlich auf der Terrasse gegessen mit Blick über das Wasser.",
+          "author": "Marieke & Pieter",
+          "location": "Utrecht",
+          "year": "2025"
+        },
+        {
+          "quote": "Perfekt für eine Familienwoche. Genug Platz für alle, eigener Steg und das Dorf Gaastmeer zu Fuß erreichbar. Sehr empfehlenswert!",
+          "author": "Familie Smits",
+          "location": "Eindhoven",
+          "year": "2024"
+        }
+      ]
+    }
+  },
+  "cottage": {
+    "heading": "Das Ferienhaus",
+    "subheading": "Freistehendes A-Frame Pyramidenhaus direkt am Wasser",
+    "intro": "Huisje 56 ist ein freistehendes Pyramidenhaus mit Holzskelett und Satteldach, erbaut 1974 und über die Jahre modernisiert. Mit ca. 70 m² Wohnfläche und einem Grundstück von 85 m² bietet es Platz für maximal 8-10 Personen. Die großzügige Stegterrasse direkt am Wasser macht jeden Morgen zu einem Fest.",
+    "specs": {
+      "heading": "Auf einen Blick",
+      "items": {
+        "area": "~70 m² Wohnfläche",
+        "plot": "85 m² Grundstück",
+        "capacity": "Max. 8-10 Personen",
+        "bedrooms": "4 Schlafzimmer + Babyzimmer",
+        "built": "Baujahr ca. 1974 (modernisiert)",
+        "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
+      }
+    },
+    "floors": {
+      "groundFloor": {
+        "label": "Erdgeschoss",
+        "rooms": {
+          "entrance": { "name": "Eingang / Flur", "desc": "Geräumiger Eingang mit ausreichend Stauraum für Jacken und Schuhe." },
+          "livingRoom": { "name": "Wohnzimmer (ca. 24 m²)", "desc": "Helles, offenes Wohnzimmer mit roter Schlafcouch, sichtbaren Holzbalken und Schiebetür zur Stegterrasse am Wasser. Der perfekte Platz für gemeinsame Abende." },
+          "kitchen": { "name": "Offene Küche", "desc": "Voll ausgestattete offene Küche, direkt mit dem Wohnzimmer verbunden." },
+          "bedroom1": { "name": "Schlafzimmer (Erdgeschoss)", "desc": "Erdgeschoss-Schlafzimmer mit 2 Einzelbetten. Ideal für Gäste, die lieber keine Treppen steigen." },
+          "bathroom": { "name": "Badezimmer", "desc": "Badezimmer mit ebenerdiger Dusche, Waschbecken und Designheizkörper/Handtuchheizkörper." }
+        }
+      },
+      "firstFloor": {
+        "label": "Obergeschoss",
+        "rooms": {
+          "landing": { "name": "Flur mit Galerie", "desc": "Luftiger Flur mit offener Galerie — das typische Merkmal eines Pyramidenhauses." },
+          "bedroom2": { "name": "Schlafzimmer 1", "desc": "2 Einzelbetten mit blauen Bettdecken." },
+          "bedroom3": { "name": "Schlafzimmer 2", "desc": "2 Einzelbetten mit hellblauen Bettdecken." },
+          "bedroom4": { "name": "Schlafzimmer 3", "desc": "1 Einzelbett mit rot karierter Bettdecke." },
+          "babyRoom": { "name": "Babyzimmer / Extrazimmer", "desc": "Separates Zimmer mit Babybett und Schlafcouch — ideal für eine Familie mit Baby oder Kleinkind." }
+        }
+      },
+      "outdoor": {
+        "label": "Außenbereich",
+        "rooms": {
+          "terrace": { "name": "Stegterrasse", "desc": "Großzügige Stegterrasse direkt am Wasser mit Esstisch und Stühlen. Panoramablick über den See und die ikonischen Pyramidenhäuser." },
+          "jetty": { "name": "Eigener Bootssteg", "desc": "Anlegemöglichkeit bis ca. 10 Meter. Wassertiefe ca. 1,5 Meter. Direktes Fahren auf Gaastmeer, Ringwiel, Zandmeer und die Fluessen." }
+        }
+      }
+    },
+    "gallery": {
+      "heading": "Fotogalerie",
+      "subheading": "Sehen Sie das Ferienhaus von innen und außen",
+      "open": "Foto öffnen",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "close": "Schließen"
+    },
+    "amenities": {
+      "heading": "Ausstattung",
+      "items": {
+        "heating": "Zentralheizung",
+        "doubleGlazing": "Doppelverglasung",
+        "furnished": "Möbliert",
+        "kitchen": "Voll ausgestattete Küche",
+        "bathroom": "Badezimmer mit Dusche",
+        "washer": "Waschmaschinenanschluss",
+        "tv": "TV / Netflix",
+        "wifi": "WLAN",
+        "jetty": "Eigener Bootssteg",
+        "terrace": "Terrasse am Wasser",
+        "baby": "Babybett verfügbar",
+        "parking": "Eigener Stellplatz",
+        "ev": "Ladestation im Park (E-Auto)",
+        "playground": "Spiel- und Schwimmbereich",
+        "boatlift": "Bootslift im Park"
+      }
+    }
+  },
+  "area": {
+    "heading": "Die Umgebung",
+    "subheading": "Wasser, Natur und friesischer Charme vor der Haustür",
+    "intro": "Gaastmeer liegt im Herzen der Friesischen Seen — eines der schönsten Wassergebiete der Niederlande. Von Ihrem eigenen Steg fahren Sie direkt auf den Gaastmeer und von dort aus auf Dutzende weitere Seen und Gewässer. Aber auch an Land gibt es viel zu erleben: malerische Dörfer, historische Städte und endlose Radrouten durch die friesische Landschaft.",
+    "watersports": {
+      "heading": "Wasser & Segeln",
+      "body": "Mit dem Gaastmeer vor der Tür, den Oudegaster Brekken um die Ecke und dem Heegermeer und den Fluessen in der Nähe — ein wunderschönes Segelgebiet. Flüsterbootrouten wurden in den letzten Jahren stark ausgebaut, ideal für kurze Ausflüge. Im Dorf können Sie Boote mieten.",
+      "activities": [
+        "Segeln auf den Friesischen Seen",
+        "Kanufahren und Stand-Up-Paddling",
+        "Angeln in der Umgebung",
+        "Flüsterboot mieten in Gaastmeer",
+        "Offene Wasserverbindung ins gesamte Friesische Seengebiet",
+        "Schlittschuhlaufen bei Frost (auf den Seen!)"
+      ]
+    },
+    "cycling": {
+      "heading": "Radfahren & Wandern",
+      "body": "Die Umgebung ist ideal für Radtouren durch die typische friesische Polderlandschaft. Die Route über It Heidenskip nach Workum ist ein absoluter Geheimtipp — herrliche Aussichten, ruhige Straßen und schöne Dörfer unterwegs.",
+      "activities": [
+        "Radroute über Heidenskip nach Workum",
+        "Wandern durch die friesische Landschaft",
+        "Fähr- und Fußfähren über die Seen",
+        "Skûtsjesilen ansehen (traditionelles friesisches Ereignis)"
+      ]
+    },
+    "towns": {
+      "heading": "Dörfer & Städte",
+      "intro": "Gaastmeer hat nur ca. 300 Einwohner — absolute Ruhe. Ringsum liegen schöne Dörfer und historische Städte nur wenige Minuten entfernt.",
+      "items": {
+        "gaastmeer": { "name": "Gaastmeer", "distance": "Fußläufig", "desc": "2016 zum schönsten Dorf Frieslands gewählt. Kleiner Supermarkt, Pommes-Stand, Bootsverleih und gemütliche Terrassen." },
+        "heeg": { "name": "Heeg", "distance": "~5 Min. Fahrt", "desc": "Das Wassersportdorf schlechthin. Viele Geschäfte, Restaurants und ein lebhafter Hafen." },
+        "sneek": { "name": "Sneek", "distance": "~15 Min. Fahrt", "desc": "Historische friesische Stadt mit gemütlichem Stadtzentrum, guten Geschäften und interessanten Museen." },
+        "workum": { "name": "Workum", "distance": "~15 Min. Fahrt", "desc": "Charmante Künstlerstadt mit dem Jopie Huisman Museum — absolut sehenswert." },
+        "bolsward": { "name": "Bolsward", "distance": "~20 Min. Fahrt", "desc": "Historische friesische Stadt mit einem prächtigen Rathaus und der Martinikirche." },
+        "leeuwarden": { "name": "Leeuwarden", "distance": "~30 Min. Fahrt", "desc": "Hauptstadt Frieslands. Museen, Geschäfte und ein lebhaftes Stadtzentrum." }
+      }
+    },
+    "distances": {
+      "heading": "Entfernungen",
+      "byBike": "Mit dem Fahrrad",
+      "byCar": "Mit dem Auto",
+      "items": {
+        "gaastmeerVillage": { "name": "Gaastmeer Dorf", "bike": "5 Min.", "car": "2 Min." },
+        "heeg": { "name": "Heeg", "bike": "25 Min.", "car": "5 Min." },
+        "sneek": { "name": "Sneek", "bike": "55 Min.", "car": "15 Min." },
+        "workum": { "name": "Workum", "bike": "60 Min.", "car": "15 Min." },
+        "amsterdam": { "name": "Amsterdam", "bike": null, "car": "~1,5 Std." },
+        "duesseldorf": { "name": "Düsseldorf", "bike": null, "car": "~2,5 Std." }
+      }
+    },
+    "map": {
+      "heading": "Lage",
+      "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
+    }
+  },
+  "booking": {
+    "heading": "Preise & Buchen",
+    "subheading": "Verfügbarkeit prüfen und Anfrage senden",
+    "intro": "Wir vermieten Huisje 56 direkt — ohne Buchungsgebühren. Senden Sie uns eine Anfrage für den gewünschten Zeitraum und wir melden uns so bald wie möglich.",
+    "pricing": {
+      "heading": "Preise",
+      "note": "Preise sind pro Woche, sofern nicht anders angegeben. Mindestens 3 Nächte außerhalb der Hauptsaison.",
+      "seasons": {
+        "low": { "label": "Nebensaison", "period": "November – März (außer Weihnachten/Silvester)", "weekPrice": "€ 695", "nightPrice": "€ 99", "minNights": "3 Nächte" },
+        "mid": { "label": "Zwischensaison", "period": "April, Mai, September, Oktober", "weekPrice": "€ 895", "nightPrice": "€ 128", "minNights": "4 Nächte" },
+        "high": { "label": "Hauptsaison", "period": "Juni, Juli, August", "weekPrice": "€ 1.195", "nightPrice": "€ 171", "minNights": "7 Nächte (Sa–Sa)" },
+        "peak": { "label": "Feiertage & Schulferien", "period": "Weihnachten, Silvester, Frühjahrsferien, Maiferien, Herbstferien", "weekPrice": "€ 1.095", "nightPrice": "€ 156", "minNights": "5 Nächte" }
+      },
+      "extras": {
+        "heading": "Zusätzliche Kosten",
+        "cleaning": "Endreinigung: € 95",
+        "deposit": "Kaution: € 250 (nach dem Aufenthalt zurückerstattet)",
+        "energy": "Energiekosten: nach Verbrauch (Sommer ca. € 30-50/Woche)",
+        "tourist": "Kurtaxe: € 1,50 p.P.p.N."
+      }
+    },
+    "calendar": {
+      "heading": "Verfügbarkeitskalender",
+      "subheading": "Wählen Sie Ihren gewünschten Zeitraum",
+      "available": "Verfügbar",
+      "unavailable": "Belegt",
+      "selected": "Ausgewählt",
+      "instruction": "Klicken Sie auf ein Anreisedatum, dann auf ein Abreisedatum"
+    },
+    "form": {
+      "heading": "Buchungsanfrage",
+      "subheading": "Füllen Sie das Formular aus und wir melden uns so bald wie möglich",
+      "name": "Name *",
+      "email": "E-Mail-Adresse *",
+      "phone": "Telefonnummer",
+      "arrivalDate": "Anreisedatum *",
+      "departureDate": "Abreisedatum *",
+      "guests": "Anzahl Gäste *",
+      "message": "Anmerkungen oder Fragen",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet...",
+      "success": "Vielen Dank für Ihre Anfrage! Wir melden uns innerhalb von 24 Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder senden Sie uns direkt eine E-Mail."
+    }
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "subheading": "Haben Sie Fragen oder möchten Sie mehr wissen? Wir helfen gerne.",
+    "intro": "Haben Sie eine Frage zum Ferienhaus, zur Umgebung oder zur Verfügbarkeit? Kontaktieren Sie uns gerne über das Formular oder per E-Mail. Wir antworten in der Regel innerhalb eines Werktages.",
+    "form": {
+      "name": "Name *",
+      "email": "E-Mail-Adresse *",
+      "subject": "Betreff *",
+      "message": "Nachricht *",
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet...",
+      "success": "Vielen Dank! Wir melden uns so bald wie möglich.",
+      "error": "Etwas ist schiefgelaufen. Bitte senden Sie eine E-Mail an info@huisje56.nl"
+    },
+    "info": {
+      "heading": "Kontaktdaten",
+      "address": "Liuwedaem 56\n8611 JJ Gaastmeer\nFriesland, Niederlande",
+      "email": "info@huisje56.nl",
+      "phone": "+31 6 00 00 00 00"
+    },
+    "route": {
+      "heading": "Anfahrt",
+      "intro": "Bei der Ankunft parken Sie auf dem Parkplatz am Eingang. Dort finden Sie Bollerwagen, um Ihr Gepäck zum Haus zu bringen — typisch für das autofreie Liuwedaem!",
+      "byCarAmsterdam": "Von Amsterdam (~1,5 Std.): A7 Richtung Leeuwarden, Ausfahrt Sneek-West, über Heeg nach Gaastmeer.",
+      "byCarGermany": "Aus Deutschland: A31 oder A7 Richtung Niederlande, über Heerenveen Richtung Sneek, dann nach Gaastmeer.",
+      "gps": "GPS: Liuwedaem 56, Gaastmeer (dann den Schildern nach Liuwedaem folgen)"
+    }
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern. Google Maps wird nur nach Ihrer Zustimmung geladen.",
+    "accept": "Akzeptieren",
+    "reject": "Nur notwendige",
+    "learnMore": "Mehr erfahren"
+  },
+  "common": {
+    "readMore": "Mehr lesen",
+    "backToTop": "Nach oben",
+    "loading": "Laden...",
+    "close": "Schließen",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "nights": "Nächte",
+    "night": "Nacht",
+    "guests": "Personen",
+    "guest": "Person",
+    "perNight": "pro Nacht",
+    "perWeek": "pro Woche",
+    "from": "Von",
+    "to": "bis",
+    "send": "Senden",
+    "required": "erforderlich"
+  },
+  "meta": {
+    "siteName": "Huisje 56 Gaastmeer",
+    "home": {
+      "title": "Huisje 56 Gaastmeer | Ferienhaus am Wasser in Friesland",
+      "description": "Ferienhaus direkt am Wasser in Gaastmeer, Friesland. Eigener Bootssteg, Terrasse am Wasser, 4 Schlafzimmer für 8-10 Personen. Autofreier Ferienpark."
+    },
+    "cottage": {
+      "title": "Das Ferienhaus | Huisje 56 Gaastmeer",
+      "description": "Freistehendes Pyramidenhaus mit 4 Schlafzimmern und Babyzimmer. Eigener Bootssteg und Terrasse am Wasser. Alle Fotos und Ausstattung ansehen."
+    },
+    "area": {
+      "title": "Die Umgebung | Huisje 56 Gaastmeer",
+      "description": "Entdecken Sie die Friesischen Seen von Gaastmeer aus. Segeln, Kanufahren, Radfahren und historische Dörfer — alles in Radreichweite von Huisje 56."
+    },
+    "booking": {
+      "title": "Preise & Buchen | Huisje 56 Gaastmeer",
+      "description": "Preise und Verfügbarkeit von Huisje 56 in Gaastmeer prüfen. Buchungsanfrage für Ihren gewünschten Zeitraum senden."
+    },
+    "contact": {
+      "title": "Kontakt | Huisje 56 Gaastmeer",
+      "description": "Kontaktieren Sie Huisje 56 in Gaastmeer. Fragen zu Verfügbarkeit, Preisen oder Lage? Wir helfen gerne."
+    }
+  }
+}
