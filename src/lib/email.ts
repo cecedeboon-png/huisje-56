@@ -2,7 +2,10 @@ import { Resend } from 'resend'
 import type { InquiryFormData, ContactFormData } from '@/types/forms'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
-const ownerEmail = process.env.OWNER_EMAIL ?? 'info@huisje56.nl'
+const ownerEmail = process.env.OWNER_EMAIL ?? 'liuwedaem56@gmail.com'
+// Use Resend's default sender until you verify your own domain (huisje56.nl)
+// To use a custom domain, go to resend.com → Domains → Add Domain → follow DNS instructions
+const fromAddress = process.env.RESEND_FROM ?? 'Huisje 56 <onboarding@resend.dev>'
 
 export async function sendInquiryEmail(data: InquiryFormData): Promise<void> {
   const nightsCount = Math.round(
@@ -11,7 +14,7 @@ export async function sendInquiryEmail(data: InquiryFormData): Promise<void> {
   )
 
   await resend.emails.send({
-    from: 'Huisje 56 <noreply@huisje56.nl>',
+    from: fromAddress,
     to: ownerEmail,
     replyTo: data.email,
     subject: `Boekingsaanvraag Huisje 56 — ${data.name} | ${formatDate(data.arrivalDate)} – ${formatDate(data.departureDate)}`,
@@ -62,7 +65,7 @@ export async function sendInquiryEmail(data: InquiryFormData): Promise<void> {
 
 export async function sendContactEmail(data: ContactFormData): Promise<void> {
   await resend.emails.send({
-    from: 'Huisje 56 <noreply@huisje56.nl>',
+    from: fromAddress,
     to: ownerEmail,
     replyTo: data.email,
     subject: `Contactbericht Huisje 56 — ${data.name}: ${data.subject}`,
