@@ -1,3 +1,5 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 import {
   Wifi,
@@ -16,6 +18,7 @@ import {
   Ship,
 } from 'lucide-react'
 import { SectionHeading } from '@/components/shared/SectionHeading'
+import { AnimateOnScroll, StaggerChildren } from '@/components/shared/AnimateOnScroll'
 
 const amenityIcons: Record<string, React.ElementType> = {
   heating: Thermometer,
@@ -42,21 +45,27 @@ export function AmenitiesList() {
   return (
     <section className="section-padding bg-navy/5">
       <div className="container-content">
-        <SectionHeading
-          heading={t('heading')}
-          subheading="Alles wat je nodig hebt voor een zorgeloze vakantie"
-          centered
-        />
+        <AnimateOnScroll animation="fade-up">
+          <SectionHeading
+            heading={t('heading')}
+            subheading="Alles wat je nodig hebt voor een zorgeloze vakantie"
+            centered
+          />
+        </AnimateOnScroll>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        <StaggerChildren
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+          staggerDelay={60}
+          animation="scale-in"
+        >
           {Object.entries(items).map(([key, label]) => {
             const Icon = amenityIcons[key] ?? Wifi
             return (
               <div
                 key={key}
-                className="bg-white rounded-sm p-4 border border-stone-100 flex flex-col items-center text-center gap-2.5 shadow-sm"
+                className="bg-white rounded-sm p-4 border border-stone-100 flex flex-col items-center text-center gap-2.5 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 group"
               >
-                <div className="w-10 h-10 rounded-full bg-navy/8 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-full bg-navy/8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                   <Icon size={18} className="text-navy" />
                 </div>
                 <span className="text-xs font-body font-medium text-stone-700 leading-snug">
@@ -65,7 +74,7 @@ export function AmenitiesList() {
               </div>
             )
           })}
-        </div>
+        </StaggerChildren>
       </div>
     </section>
   )

@@ -26,15 +26,15 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center gap-2 bg-navy text-white px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-200 hover:bg-navy-600 hover:shadow-lg hover:-translate-y-0.5;
+    @apply inline-flex items-center gap-2 bg-navy text-white px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-300 hover:bg-navy-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 active:shadow-md;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center gap-2 bg-transparent text-navy border border-navy px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-200 hover:bg-navy hover:text-white;
+    @apply inline-flex items-center gap-2 bg-transparent text-navy border border-navy px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-300 hover:bg-navy hover:text-white hover:shadow-md;
   }
 
   .btn-terracotta {
-    @apply inline-flex items-center gap-2 bg-terracotta text-white px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-200 hover:bg-terracotta-500 hover:shadow-lg hover:-translate-y-0.5;
+    @apply inline-flex items-center gap-2 bg-terracotta text-white px-6 py-3 rounded-sm font-body font-medium text-sm tracking-wide transition-all duration-300 hover:bg-terracotta-500 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 active:shadow-md;
   }
 
   .section-padding {
@@ -46,7 +46,7 @@
   }
 
   .card {
-    @apply bg-white rounded-sm shadow-sm border border-stone-100 overflow-hidden;
+    @apply bg-white rounded-sm shadow-sm border border-stone-100 overflow-hidden transition-shadow duration-300 hover:shadow-md;
   }
 
   .form-input {
@@ -55,6 +55,18 @@
 
   .form-label {
     @apply block text-sm font-medium text-[#2D2D2D] mb-1.5 font-body;
+  }
+
+  /* Nav link hover underline animation */
+  .nav-link {
+    @apply relative;
+  }
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-[1.5px] bg-current transition-all duration-300;
+  }
+  .nav-link:hover::after {
+    @apply w-full;
   }
 }
 
@@ -84,4 +96,29 @@
   color: #C9C9C9 !important;
   text-decoration: line-through;
   cursor: not-allowed;
+}
+
+/* Hero animations */
+@keyframes kenBurns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.08); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(24px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-ken-burns {
+  animation: kenBurns 20s ease-in-out infinite alternate;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-ken-burns {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }

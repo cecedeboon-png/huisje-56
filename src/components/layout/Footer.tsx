@@ -16,8 +16,23 @@ export function Footer() {
   ]
 
   return (
-    <footer className="bg-navy text-white">
-      <div className="container-content py-14 md:py-16">
+    <footer className="bg-navy text-white relative">
+      {/* Wave divider at top */}
+      <div className="absolute top-0 left-0 right-0 -translate-y-full overflow-hidden leading-[0]">
+        <svg
+          viewBox="0 0 1440 60"
+          preserveAspectRatio="none"
+          className="relative block w-full h-[30px] md:h-[50px]"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0,20 C360,60 720,0 1080,30 C1260,45 1380,35 1440,20 L1440,60 L0,60 Z"
+            fill="#1B3A5C"
+          />
+        </svg>
+      </div>
+
+      <div className="container-content py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
           {/* Brand */}
           <div>
@@ -32,15 +47,15 @@ export function Footer() {
 
           {/* Navigation */}
           <div>
-            <h3 className="text-sm font-semibold tracking-widest uppercase text-white/50 mb-4 font-body">
+            <h3 className="text-sm font-semibold tracking-widest uppercase text-white/50 mb-5 font-body">
               Pagina&apos;s
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-2.5">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-white/70 text-sm hover:text-white transition-colors"
+                    className="text-white/70 text-sm hover:text-white transition-colors duration-300"
                   >
                     {link.label}
                   </Link>
@@ -51,10 +66,10 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-sm font-semibold tracking-widest uppercase text-white/50 mb-4 font-body">
+            <h3 className="text-sm font-semibold tracking-widest uppercase text-white/50 mb-5 font-body">
               Contact
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3.5">
               <li className="flex items-start gap-2.5 text-sm text-white/70">
                 <MapPin size={15} className="shrink-0 mt-0.5 text-terracotta" />
                 Liuwedaem 56, 8611 JJ Gaastmeer, Friesland
@@ -62,7 +77,7 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:liuwedaem56@gmail.com"
-                  className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors"
+                  className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors duration-300"
                 >
                   <Mail size={15} className="shrink-0 text-terracotta" />
                   liuwedaem56@gmail.com
@@ -71,7 +86,7 @@ export function Footer() {
               <li>
                 <a
                   href="tel:+31615615063"
-                  className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors"
+                  className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors duration-300"
                 >
                   <Phone size={15} className="shrink-0 text-terracotta" />
                   +31 6 15 61 50 63
@@ -81,7 +96,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
+        <div className="mt-14 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
           <p>© {new Date().getFullYear()} Huisje 56 Gaastmeer. Alle rechten voorbehouden.</p>
           <p>Recreatiepark de Liuwe Daem · Gaastmeer · Friesland</p>
         </div>

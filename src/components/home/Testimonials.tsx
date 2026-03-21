@@ -1,6 +1,9 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
-import { Quote } from 'lucide-react'
+import { Quote, Star } from 'lucide-react'
 import { SectionHeading } from '@/components/shared/SectionHeading'
+import { AnimateOnScroll, StaggerChildren } from '@/components/shared/AnimateOnScroll'
 
 export function Testimonials() {
   const t = useTranslations('home.testimonials')
@@ -14,18 +17,31 @@ export function Testimonials() {
   return (
     <section className="section-padding bg-navy/5">
       <div className="container-content">
-        <SectionHeading
-          heading={t('heading')}
-          centered
-        />
+        <AnimateOnScroll animation="fade-up">
+          <SectionHeading
+            heading={t('heading')}
+            centered
+          />
+        </AnimateOnScroll>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <StaggerChildren
+          className="grid grid-cols-1 md:grid-cols-3 gap-6"
+          staggerDelay={150}
+          animation="fade-up"
+        >
           {items.map((item, i) => (
             <div
               key={i}
-              className="bg-white rounded-sm p-7 shadow-sm border border-stone-100 flex flex-col"
+              className="bg-white rounded-sm p-7 shadow-sm border border-stone-100 flex flex-col transition-shadow duration-300 hover:shadow-md"
             >
-              <Quote size={28} className="text-terracotta/40 mb-4 shrink-0" />
+              <div className="flex items-center justify-between mb-4">
+                <Quote size={28} className="text-terracotta/40 shrink-0" />
+                <div className="flex gap-0.5">
+                  {[...Array(5)].map((_, j) => (
+                    <Star key={j} size={14} className="text-terracotta fill-terracotta" />
+                  ))}
+                </div>
+              </div>
               <p className="text-stone-700 font-body leading-relaxed text-sm italic flex-1">
                 &ldquo;{item.quote}&rdquo;
               </p>
@@ -37,7 +53,7 @@ export function Testimonials() {
               </div>
             </div>
           ))}
-        </div>
+        </StaggerChildren>
       </div>
     </section>
   )

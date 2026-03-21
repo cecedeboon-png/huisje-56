@@ -6,6 +6,7 @@ import { IntroSection } from '@/components/home/IntroSection'
 import { PhotoGrid } from '@/components/home/PhotoGrid'
 import { ParkIntro } from '@/components/home/ParkIntro'
 import { Testimonials } from '@/components/home/Testimonials'
+import { WaveDivider } from '@/components/shared/WaveDivider'
 
 export async function generateMetadata({
   params,
@@ -35,9 +36,13 @@ export default function HomePage() {
     <>
       <HeroSection />
       <HighlightBlocks />
+      <WaveDivider from="#FFFFFF" to="#F8F6F2" />
       <IntroSection />
+      <WaveDivider from="#F8F6F2" to="#F8F6F2" />
       <PhotoGrid />
+      <WaveDivider from="#F8F6F2" to="#FFFFFF" />
       <ParkIntro />
+      <WaveDivider from="#FFFFFF" to="#EFF1EE" />
       <Testimonials />
     </>
   )

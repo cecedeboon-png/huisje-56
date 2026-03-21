@@ -63,7 +63,7 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'text-sm font-body tracking-wide transition-colors',
+                  'text-sm font-body tracking-wide transition-colors nav-link',
                   scrolled
                     ? 'text-stone-600 hover:text-navy'
                     : 'text-white/90 hover:text-white'

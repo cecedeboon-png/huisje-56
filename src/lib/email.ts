@@ -1,10 +1,17 @@
 import { Resend } from 'resend'
 import type { InquiryFormData, ContactFormData } from '@/types/forms'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+let _resend: Resend | null = null
+function getResend() {
+  if (!_resend) {
+    const key = process.env.RESEND_API_KEY
+    if (!key) throw new Error('RESEND_API_KEY is not configured')
+    _resend = new Resend(key)
+  }
+  return _resend
+}
+
 const ownerEmail = process.env.OWNER_EMAIL ?? 'liuwedaem56@gmail.com'
-// Use Resend's default sender until you verify your own domain (huisje56.nl)
-// To use a custom domain, go to resend.com → Domains → Add Domain → follow DNS instructions
 const fromAddress = process.env.RESEND_FROM ?? 'Huisje 56 <onboarding@resend.dev>'
 
 export async function sendInquiryEmail(data: InquiryFormData): Promise<void> {
@@ -13,7 +20,7 @@ export async function sendInquiryEmail(data: InquiryFormData): Promise<void> {
       (1000 * 60 * 60 * 24)
   )
 
-  await resend.emails.send({
+  await getResend().emails.send({
     from: fromAddress,
     to: ownerEmail,
     replyTo: data.email,
@@ -64,7 +71,7 @@ export async function sendInquiryEmail(data: InquiryFormData): Promise<void> {
 }
 
 export async function sendContactEmail(data: ContactFormData): Promise<void> {
-  await resend.emails.send({
+  await getResend().emails.send({
     from: fromAddress,
     to: ownerEmail,
     replyTo: data.email,

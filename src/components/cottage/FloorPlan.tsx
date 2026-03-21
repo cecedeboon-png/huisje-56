@@ -1,6 +1,9 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { SectionHeading } from '@/components/shared/SectionHeading'
+import { AnimateOnScroll, StaggerChildren } from '@/components/shared/AnimateOnScroll'
 
 type FloorKey = 'groundFloor' | 'firstFloor' | 'outdoor'
 
@@ -34,13 +37,19 @@ export function FloorPlan() {
   return (
     <section className="section-padding bg-white">
       <div className="container-content">
-        <SectionHeading heading="Indeling" subheading="Per verdieping, van beneden naar boven" />
+        <AnimateOnScroll animation="fade-up">
+          <SectionHeading heading="Indeling" subheading="Per verdieping, van beneden naar boven" />
+        </AnimateOnScroll>
 
         {/* Specs bar */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-14">
+        <StaggerChildren
+          className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-14"
+          staggerDelay={80}
+          animation="fade-up"
+        >
           {(Object.entries(t.raw('specs.items') as Record<string, string>)).map(
             ([key, value]) => (
-              <div key={key} className="bg-stone-50 rounded-sm p-4 border border-stone-100">
+              <div key={key} className="bg-stone-50 rounded-sm p-4 border border-stone-100 transition-shadow duration-300 hover:shadow-sm">
                 <p className="text-xs font-body text-stone-400 uppercase tracking-wide mb-1">
                   {key === 'area' ? 'Oppervlakte' :
                    key === 'plot' ? 'Perceel' :
@@ -52,11 +61,11 @@ export function FloorPlan() {
               </div>
             )
           )}
-        </div>
+        </StaggerChildren>
 
         <div className="space-y-14">
-          {floors.map((floor) => (
-            <div key={floor}>
+          {floors.map((floor, floorIndex) => (
+            <AnimateOnScroll key={floor} animation="fade-up" delay={floorIndex * 100}>
               {/* Floor header */}
               <div className="flex items-center gap-4 mb-6">
                 <div className="h-px flex-1 bg-stone-200" />
@@ -68,12 +77,12 @@ export function FloorPlan() {
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-start">
                 {/* Floor image */}
-                <div className="relative h-64 md:h-80 overflow-hidden rounded-sm">
+                <div className="relative h-64 md:h-80 overflow-hidden rounded-sm group">
                   <Image
                     src={floorImages[floor]}
                     alt={t(`floors.${floor}.label`)}
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 </div>
@@ -83,15 +92,15 @@ export function FloorPlan() {
                   {floorRooms[floor].map((room) => (
                     <div
                       key={room}
-                      className="bg-stone-50 rounded-sm p-4 border border-stone-100 flex gap-3"
+                      className="bg-stone-50 rounded-sm p-4 border border-stone-100 flex gap-3 transition-all duration-300 hover:shadow-sm hover:border-stone-200"
                     >
                       {roomImages[room] && (
-                        <div className="relative w-16 h-16 rounded-sm overflow-hidden shrink-0">
+                        <div className="relative w-16 h-16 rounded-sm overflow-hidden shrink-0 group">
                           <Image
                             src={roomImages[room]}
                             alt={t(`floors.${floor}.rooms.${room}.name`)}
                             fill
-                            className="object-cover"
+                            className="object-cover transition-transform duration-500 group-hover:scale-110"
                             sizes="64px"
                           />
                         </div>
@@ -108,7 +117,7 @@ export function FloorPlan() {
                   ))}
                 </div>
               </div>
-            </div>
+            </AnimateOnScroll>
           ))}
         </div>
       </div>

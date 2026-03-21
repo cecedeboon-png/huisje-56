@@ -1,5 +1,8 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 import { Anchor, Car, Users, Waves } from 'lucide-react'
+import { StaggerChildren } from '@/components/shared/AnimateOnScroll'
 
 const highlights = [
   {
@@ -34,13 +37,17 @@ export function HighlightBlocks() {
   return (
     <section className="bg-white border-b border-stone-100">
       <div className="container-content">
-        <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-stone-100">
+        <StaggerChildren
+          className="grid grid-cols-2 md:grid-cols-4 divide-x divide-stone-100"
+          staggerDelay={120}
+          animation="fade-up"
+        >
           {highlights.map(({ key, icon: Icon, color, bg }) => (
             <div
               key={key}
-              className="flex flex-col items-center text-center px-6 py-8 md:py-10 gap-3"
+              className="flex flex-col items-center text-center px-6 py-8 md:py-10 gap-3 group"
             >
-              <div className={`w-12 h-12 rounded-full ${bg} flex items-center justify-center`}>
+              <div className={`w-12 h-12 rounded-full ${bg} flex items-center justify-center transition-transform duration-300 group-hover:scale-110`}>
                 <Icon size={22} className={color} />
               </div>
               <div>
@@ -53,7 +60,7 @@ export function HighlightBlocks() {
               </div>
             </div>
           ))}
-        </div>
+        </StaggerChildren>
       </div>
     </section>
   )
