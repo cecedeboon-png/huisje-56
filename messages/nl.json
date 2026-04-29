@@ -30,7 +30,7 @@
       },
       "guests": {
         "title": "Tot 6 personen",
-        "desc": "Vier slaapkamers en een babykamer. Ruimte voor het hele gezin."
+        "desc": "Vier slaapkamers verdeeld over twee verdiepingen. Ruimte voor het hele gezin."
       },
       "location": {
         "title": "Direct aan het water",
@@ -88,7 +88,7 @@
         "area": "~70 m² woonoppervlakte",
         "plot": "85 m² perceel",
         "capacity": "Max. 6 personen",
-        "bedrooms": "4 slaapkamers + babykamer",
+        "bedrooms": "4 slaapkamers",
         "built": "Gebouwd ca. 1974 (gemoderniseerd)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
       }
@@ -110,8 +110,8 @@
             "desc": "Volledig uitgeruste open keuken, direct verbonden met de woonkamer."
           },
           "bedroom1": {
-            "name": "Slaapkamer (beneden)",
-            "desc": "Slaapkamer op de begane grond met 2 eenpersoonsbedden. Ideaal voor gasten die de trap liever vermijden."
+            "name": "Slaapkamer 1 (beneden)",
+            "desc": "Slaapkamer op de begane grond met tweepersoonsbed. Ideaal voor gasten die de trap liever vermijden."
           },
           "bathroom": {
             "name": "Badkamer",
@@ -127,20 +127,20 @@
             "desc": "Luchtige overloop met open vide — het typische kenmerk van een piramidehuisje."
           },
           "bedroom2": {
-            "name": "Slaapkamer 1",
-            "desc": "2 eenpersoonsbedden met blauwe dekbedden."
+            "name": "Slaapkamer 2",
+            "desc": "2 eenpersoonsbedden onder het schuine dak met dakraam."
           },
           "bedroom3": {
-            "name": "Slaapkamer 2",
-            "desc": "2 eenpersoonsbedden met lichtblauwe dekbedden."
+            "name": "Slaapkamer 3",
+            "desc": "2 eenpersoonsbedden met blauwe en lichtblauwe dekbedden onder dakraam."
           },
           "bedroom4": {
-            "name": "Slaapkamer 3",
-            "desc": "1 eenpersoonsbed met rood geruit dekbed."
+            "name": "Slaapkamer 4",
+            "desc": "Tweepersoonsbed met blauw geruit dekbed onder schuin houten plafond."
           },
-          "babyRoom": {
-            "name": "Babykamer / extra kamer",
-            "desc": "Aparte kamer met babyledikant én een slaapbank — ideaal voor een gezin met een baby of peuter."
+          "washbasin": {
+            "name": "Wasbak",
+            "desc": "Aparte wasbak op de overloop met spiegelkast — handig bij meerdere gasten."
           }
         }
       },
@@ -358,7 +358,7 @@
     },
     "cottage": {
       "title": "Het Huisje | Huisje 56 Gaastmeer",
-      "description": "Vrijstaand A-frame piramidehuisje met 4 slaapkamers en babykamer. Eigen aanlegsteiger en terras aan het water. Bekijk alle foto's en voorzieningen."
+      "description": "Vrijstaand A-frame piramidehuisje met 4 slaapkamers verdeeld over twee verdiepingen. Eigen aanlegsteiger en terras aan het water. Bekijk alle foto's en voorzieningen."
     },
     "area": {
       "title": "De Omgeving | Huisje 56 Gaastmeer",

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: 'Huisje 56 Gaastmeer',
     images: [
       {
-        url: '/images/gallery/foto08-park-water-zomer.jpg',
+        url: '/images/gallery/foto-aanzicht.jpg',
         width: 1200,
         height: 630,
         alt: 'Huisje 56 — Piramidehuisjes aan het water in Gaastmeer',

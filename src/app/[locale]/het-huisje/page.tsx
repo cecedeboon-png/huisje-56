@@ -29,8 +29,8 @@ export default async function CottagePage({
       {/* Hero */}
       <div className="relative h-72 md:h-96 overflow-hidden">
         <Image
-          src="/images/gallery/foto15-park-zomer-eenden.jpg"
-          alt="Piramidehuisje 56 aan het water in Gaastmeer"
+          src="/images/gallery/foto-aanzicht.jpg"
+          alt="Huisje 56 aan het water in Gaastmeer"
           fill
           priority
           className="object-cover"

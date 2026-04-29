@@ -8,24 +8,39 @@ import { ImageLightbox } from '@/components/shared/ImageLightbox'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 
 const galleryImages = [
-  { src: '/images/gallery/foto08-park-water-zomer.jpg', alt: 'Wijds wateruitzicht met afgemeerde zeilboot en rij chalets aan de overkant' },
-  { src: '/images/gallery/foto15-park-zomer-eenden.jpg', alt: 'Het huisje gezien vanaf het water met afgemeerde zeilboot' },
-  { src: '/images/gallery/foto16-zonsondergang-bolderkar.jpg', alt: 'Buitenaanzicht van het huisje in het voorjaar met narcissen en blauwe lucht' },
-  { src: '/images/gallery/foto14-park-water-winter.jpg', alt: 'Steigerterras met dramatische lucht en bootje aan de steiger' },
-  { src: '/images/gallery/foto13-terras-water.jpg', alt: 'Steigerterras met witte tafel en stoelen, uitzicht op het water' },
-  { src: '/images/gallery/foto12-woonkamer-bank-balken.jpg', alt: 'Eethoek met houten balken en schuifpui naar het terras' },
-  { src: '/images/gallery/foto07-woonkamer-schuifpui.jpg', alt: 'Rotan stoelen bij de schuifpui met uitzicht op het water' },
-  { src: '/images/gallery/foto03-woonkamer-rode-bank.jpg', alt: 'Woonkamer met rode bank, houten balken en ladder naar de vide' },
-  { src: '/images/gallery/foto06-woonkamer-trap-water.jpg', alt: 'Houten trap naar de vide met wateruitzicht door het raam' },
-  { src: '/images/gallery/foto04-doorgang-trap.jpg', alt: 'Doorgang met schuifdeur naar de hal' },
-  { src: '/images/gallery/foto18-keuken.jpg', alt: 'Open keuken met grijze kasten, kookplaat en granieten werkblad' },
-  { src: '/images/gallery/foto02-slaapkamer-licht.jpg', alt: 'Slaapkamer met 2 eenpersoonsbedden — lichte tinten met rode plaid' },
-  { src: '/images/gallery/foto09-slaapkamer-blauw.jpg', alt: 'Slaapkamer onder het schuine dak met blauw geruit dekbed en dakraam' },
-  { src: '/images/gallery/foto11-slaapkamer-rood-blauw.jpg', alt: 'Slaapkamer met 2 eenpersoonsbedden en lichtblauwe accenten' },
-  { src: '/images/gallery/foto10-slaapkamer-roodgeruit.jpg', alt: 'Slaapkamer met 2 eenpersoonsbedden en rood-geruite dekbedden' },
-  { src: '/images/gallery/foto17-slaapkamer-nis.jpg', alt: 'Slaapkamer in nis met geruit dekbed' },
-  { src: '/images/gallery/foto01-babykamer.jpg', alt: 'Extra slaapkamer met tweepersoonsbed en kunst aan de wand' },
-  { src: '/images/gallery/foto05-badkamer.jpg', alt: 'Badkamer met inloopdouche en handdoekradiator' },
+  // Algemeen aanzicht
+  { src: '/images/gallery/foto-aanzicht.jpg', alt: 'Het huisje gezien vanaf het water met afgemeerde zeilboot' },
+  { src: '/images/gallery/foto-aanzicht-zijkant.jpg', alt: 'Buitenaanzicht van het huisje met terras' },
+  // Buitenruimte
+  { src: '/images/gallery/foto-terras.jpg', alt: 'Steigerterras met witte tafel en stoelen' },
+  { src: '/images/gallery/foto-steiger.jpg', alt: 'Eigen aanlegsteiger met zeilboot en uitzicht over het water' },
+  { src: '/images/gallery/foto-buitenruimte.jpg', alt: 'Picknicktafel op het terras met zicht op het water' },
+  { src: '/images/gallery/foto-tuin.jpg', alt: 'Waterzijde van de tuin met rode kano' },
+  // Woonkamer
+  { src: '/images/gallery/foto-woonkamer.jpg', alt: 'Woonkamer met eettafel, rotan stoelen en uitzicht naar het terras' },
+  { src: '/images/gallery/foto-woonkamer-uitzicht.jpg', alt: 'Rotan stoelen bij de schuifpui met uitzicht op het water' },
+  { src: '/images/gallery/foto-vide.jpg', alt: 'Open vide met balken en kleurrijke vogelhuisjes' },
+  // Keuken
+  { src: '/images/gallery/foto-keuken.jpg', alt: 'Open keuken met grijze kasten, oven en kookplaat' },
+  { src: '/images/gallery/foto-keuken-detail.jpg', alt: 'Keuken-detail met granieten werkblad en gaskookplaat' },
+  // Hal
+  { src: '/images/gallery/foto-hal.jpg', alt: 'Doorgang en hal met houten vloer en bakstenen wand' },
+  // Slaapkamers
+  { src: '/images/gallery/foto-slaapkamer-1.jpg', alt: 'Slaapkamer 1 op de begane grond met tweepersoonsbed' },
+  { src: '/images/gallery/foto-slaapkamer-2.jpg', alt: 'Slaapkamer 2 onder het schuine dak met dakraam' },
+  { src: '/images/gallery/foto-slaapkamer-2-alt.jpg', alt: 'Slaapkamer 2 — andere hoek met twee eenpersoonsbedden' },
+  { src: '/images/gallery/foto-slaapkamer-3.jpg', alt: 'Slaapkamer 3 met twee eenpersoonsbedden onder dakraam' },
+  { src: '/images/gallery/foto-slaapkamer-4.jpg', alt: 'Slaapkamer 4 met blauw geruit dekbed onder houten plafond' },
+  // Wasbak
+  { src: '/images/gallery/foto-wasbak.jpg', alt: 'Wasbak op de overloop met patrijspoort-spiegel' },
+  // Badkamer
+  { src: '/images/gallery/foto-badkamer.jpg', alt: 'Badkamer met wastafel, spiegelkast en handdoekradiator' },
+  { src: '/images/gallery/foto-badkamer-douche.jpg', alt: 'Inloopdouche met witte tegels' },
+  { src: '/images/gallery/foto-badkamer-toilet.jpg', alt: 'Badkamer met hangtoilet' },
+  // Sfeer & details
+  { src: '/images/gallery/foto-poster.jpg', alt: 'Vintage reclamebord uit 1961 — sfeerelement op de trap' },
+  { src: '/images/gallery/foto-retro-keuken.jpg', alt: 'Retro rode waterkoker en magnetron — keukendetail' },
+  { src: '/images/gallery/foto-vlaggen.jpg', alt: 'Maritiem detail — seinvlaggen en zeilbootschilderij' },
 ]
 
 export function FullGallery() {

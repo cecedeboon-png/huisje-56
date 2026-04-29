@@ -8,26 +8,30 @@ import { AnimateOnScroll, StaggerChildren } from '@/components/shared/AnimateOnS
 type FloorKey = 'groundFloor' | 'firstFloor' | 'outdoor'
 
 const floorImages: Record<string, string> = {
-  groundFloor: '/images/gallery/foto06-woonkamer-trap-water.jpg',
-  firstFloor: '/images/gallery/foto01-babykamer.jpg',
-  outdoor: '/images/gallery/foto13-terras-water.jpg',
+  groundFloor: '/images/gallery/foto-woonkamer.jpg',
+  firstFloor: '/images/gallery/foto-vide.jpg',
+  outdoor: '/images/gallery/foto-terras.jpg',
 }
 
 const floorRooms: Record<FloorKey, string[]> = {
   groundFloor: ['entrance', 'livingRoom', 'kitchen', 'bedroom1', 'bathroom'],
-  firstFloor: ['landing', 'bedroom2', 'bedroom3', 'bedroom4', 'babyRoom'],
+  firstFloor: ['landing', 'bedroom2', 'bedroom3', 'bedroom4', 'washbasin'],
   outdoor: ['terrace', 'jetty'],
 }
 
 const roomImages: Record<string, string> = {
-  livingRoom: '/images/gallery/foto07-woonkamer-schuifpui.jpg',
-  bedroom1: '/images/gallery/foto02-slaapkamer-licht.jpg',
-  bathroom: '/images/gallery/foto05-badkamer.jpg',
-  bedroom2: '/images/gallery/foto09-slaapkamer-blauw.jpg',
-  bedroom3: '/images/gallery/foto11-slaapkamer-rood-blauw.jpg',
-  bedroom4: '/images/gallery/foto10-slaapkamer-roodgeruit.jpg',
-  babyRoom: '/images/gallery/foto01-babykamer.jpg',
-  terrace: '/images/gallery/foto13-terras-water.jpg',
+  entrance: '/images/gallery/foto-hal.jpg',
+  livingRoom: '/images/gallery/foto-woonkamer-uitzicht.jpg',
+  kitchen: '/images/gallery/foto-keuken.jpg',
+  bedroom1: '/images/gallery/foto-slaapkamer-1.jpg',
+  bathroom: '/images/gallery/foto-badkamer.jpg',
+  landing: '/images/gallery/foto-vide.jpg',
+  bedroom2: '/images/gallery/foto-slaapkamer-2.jpg',
+  bedroom3: '/images/gallery/foto-slaapkamer-3.jpg',
+  bedroom4: '/images/gallery/foto-slaapkamer-4.jpg',
+  washbasin: '/images/gallery/foto-wasbak.jpg',
+  terrace: '/images/gallery/foto-terras.jpg',
+  jetty: '/images/gallery/foto-steiger.jpg',
 }
 
 export function FloorPlan() {

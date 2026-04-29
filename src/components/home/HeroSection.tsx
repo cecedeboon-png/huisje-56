@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Background image with ken-burns */}
       <div className="absolute inset-0">
         <Image
-          src="/images/gallery/foto08-park-water-zomer.jpg"
+          src="/images/gallery/foto-aanzicht.jpg"
           alt="Piramidehuisjes aan het water op Recreatiepark de Liuwe Daem in Gaastmeer"
           fill
           priority

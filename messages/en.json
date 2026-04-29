@@ -30,7 +30,7 @@
       },
       "guests": {
         "title": "Up to 6 guests",
-        "desc": "Four bedrooms and a baby room. Space for the whole family."
+        "desc": "Four bedrooms across two floors. Space for the whole family."
       },
       "location": {
         "title": "Waterfront location",
@@ -88,7 +88,7 @@
         "area": "~70 m² living space",
         "plot": "85 m² plot",
         "capacity": "Max. 6 persons",
-        "bedrooms": "4 bedrooms + baby room",
+        "bedrooms": "4 bedrooms",
         "built": "Built approx. 1974 (modernised)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
       }
@@ -100,7 +100,7 @@
           "entrance": { "name": "Entrance / hallway", "desc": "Spacious entrance with ample storage for coats and shoes." },
           "livingRoom": { "name": "Living room (approx. 24 m²)", "desc": "Light, open living room with red sofa bed, exposed wooden beams and sliding doors leading to the waterfront terrace. The perfect spot for evenings together." },
           "kitchen": { "name": "Open kitchen", "desc": "Fully equipped open kitchen, directly connected to the living room." },
-          "bedroom1": { "name": "Bedroom (ground floor)", "desc": "Ground floor bedroom with 2 single beds. Ideal for guests who prefer to avoid the stairs." },
+          "bedroom1": { "name": "Bedroom 1 (ground floor)", "desc": "Ground floor bedroom with double bed. Ideal for guests who prefer to avoid the stairs." },
           "bathroom": { "name": "Bathroom", "desc": "Bathroom with walk-in shower, washbasin and a designer heated towel rail." }
         }
       },
@@ -108,10 +108,10 @@
         "label": "First floor",
         "rooms": {
           "landing": { "name": "Landing with mezzanine", "desc": "Airy landing with open mezzanine — the typical feature of a pyramid cottage." },
-          "bedroom2": { "name": "Bedroom 1", "desc": "2 single beds with blue duvets." },
-          "bedroom3": { "name": "Bedroom 2", "desc": "2 single beds with light blue duvets." },
-          "bedroom4": { "name": "Bedroom 3", "desc": "1 single bed with red checked duvet." },
-          "babyRoom": { "name": "Baby room / extra room", "desc": "Separate room with baby cot and sofa bed — ideal for a family with a baby or toddler." }
+          "bedroom2": { "name": "Bedroom 2", "desc": "2 single beds under the sloped roof with skylight." },
+          "bedroom3": { "name": "Bedroom 3", "desc": "2 single beds with blue and light blue duvets under skylight." },
+          "bedroom4": { "name": "Bedroom 4", "desc": "Double bed with blue gingham duvet under sloped wood-panelled ceiling." },
+          "washbasin": { "name": "Washbasin", "desc": "Separate washbasin on the landing with mirror cabinet — handy for multiple guests." }
         }
       },
       "outdoor": {
@@ -298,7 +298,7 @@
     },
     "cottage": {
       "title": "The Cottage | Huisje 56 Gaastmeer",
-      "description": "Detached A-frame pyramid cottage with 4 bedrooms and baby room. Private jetty and terrace on the water. View all photos and amenities."
+      "description": "Detached A-frame pyramid cottage with 4 bedrooms across two floors. Private jetty and terrace on the water. View all photos and amenities."
     },
     "area": {
       "title": "The Area | Huisje 56 Gaastmeer",

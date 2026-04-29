@@ -30,7 +30,7 @@
       },
       "guests": {
         "title": "Bis zu 6 Personen",
-        "desc": "Vier Schlafzimmer und ein Babyzimmer. Platz für die ganze Familie."
+        "desc": "Vier Schlafzimmer auf zwei Etagen. Platz für die ganze Familie."
       },
       "location": {
         "title": "Direkt am Wasser",
@@ -88,7 +88,7 @@
         "area": "~70 m² Wohnfläche",
         "plot": "85 m² Grundstück",
         "capacity": "Max. 6 Personen",
-        "bedrooms": "4 Schlafzimmer + Babyzimmer",
+        "bedrooms": "4 Schlafzimmer",
         "built": "Baujahr ca. 1974 (modernisiert)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
       }
@@ -100,7 +100,7 @@
           "entrance": { "name": "Eingang / Flur", "desc": "Geräumiger Eingang mit ausreichend Stauraum für Jacken und Schuhe." },
           "livingRoom": { "name": "Wohnzimmer (ca. 24 m²)", "desc": "Helles, offenes Wohnzimmer mit roter Schlafcouch, sichtbaren Holzbalken und Schiebetür zur Stegterrasse am Wasser. Der perfekte Platz für gemeinsame Abende." },
           "kitchen": { "name": "Offene Küche", "desc": "Voll ausgestattete offene Küche, direkt mit dem Wohnzimmer verbunden." },
-          "bedroom1": { "name": "Schlafzimmer (Erdgeschoss)", "desc": "Erdgeschoss-Schlafzimmer mit 2 Einzelbetten. Ideal für Gäste, die lieber keine Treppen steigen." },
+          "bedroom1": { "name": "Schlafzimmer 1 (Erdgeschoss)", "desc": "Erdgeschoss-Schlafzimmer mit Doppelbett. Ideal für Gäste, die lieber keine Treppen steigen." },
           "bathroom": { "name": "Badezimmer", "desc": "Badezimmer mit ebenerdiger Dusche, Waschbecken und Designheizkörper/Handtuchheizkörper." }
         }
       },
@@ -108,10 +108,10 @@
         "label": "Obergeschoss",
         "rooms": {
           "landing": { "name": "Flur mit Galerie", "desc": "Luftiger Flur mit offener Galerie — das typische Merkmal eines Pyramidenhauses." },
-          "bedroom2": { "name": "Schlafzimmer 1", "desc": "2 Einzelbetten mit blauen Bettdecken." },
-          "bedroom3": { "name": "Schlafzimmer 2", "desc": "2 Einzelbetten mit hellblauen Bettdecken." },
-          "bedroom4": { "name": "Schlafzimmer 3", "desc": "1 Einzelbett mit rot karierter Bettdecke." },
-          "babyRoom": { "name": "Babyzimmer / Extrazimmer", "desc": "Separates Zimmer mit Babybett und Schlafcouch — ideal für eine Familie mit Baby oder Kleinkind." }
+          "bedroom2": { "name": "Schlafzimmer 2", "desc": "2 Einzelbetten unter dem Schrägdach mit Dachfenster." },
+          "bedroom3": { "name": "Schlafzimmer 3", "desc": "2 Einzelbetten mit blauen und hellblauen Bettdecken unter Dachfenster." },
+          "bedroom4": { "name": "Schlafzimmer 4", "desc": "Doppelbett mit blau-kariertem Bettbezug unter schräger Holzdecke." },
+          "washbasin": { "name": "Waschbecken", "desc": "Separates Waschbecken auf dem Treppenabsatz mit Spiegelschrank — praktisch bei mehreren Gästen." }
         }
       },
       "outdoor": {
@@ -298,7 +298,7 @@
     },
     "cottage": {
       "title": "Das Ferienhaus | Huisje 56 Gaastmeer",
-      "description": "Freistehendes Pyramidenhaus mit 4 Schlafzimmern und Babyzimmer. Eigener Bootssteg und Terrasse am Wasser. Alle Fotos und Ausstattung ansehen."
+      "description": "Freistehendes Pyramidenhaus mit 4 Schlafzimmern auf zwei Etagen. Eigener Bootssteg und Terrasse am Wasser. Alle Fotos und Ausstattung ansehen."
     },
     "area": {
       "title": "Die Umgebung | Huisje 56 Gaastmeer",

@@ -38,7 +38,7 @@ export default async function AreaPage({
       {/* Hero */}
       <div className="relative h-72 md:h-96 overflow-hidden">
         <Image
-          src="/images/gallery/foto08-park-water-zomer.jpg"
+          src="/images/gallery/foto-aanzicht.jpg"
           alt="Gaastmeer en de Friese meren"
           fill
           priority
@@ -91,7 +91,7 @@ export default async function AreaPage({
             </div>
             <div className="relative h-80 rounded-sm overflow-hidden">
               <Image
-                src="/images/gallery/foto08-park-water-zomer.jpg"
+                src="/images/gallery/foto-steiger.jpg"
                 alt="Zeilen en varen op de Friese meren"
                 fill
                 className="object-cover"
@@ -108,7 +108,7 @@ export default async function AreaPage({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-80 rounded-sm overflow-hidden">
               <Image
-                src="/images/gallery/foto16-zonsondergang-bolderkar.jpg"
+                src="/images/gallery/foto-tuin.jpg"
                 alt="Fietsen in het Friese landschap"
                 fill
                 className="object-cover"

@@ -46,8 +46,8 @@ export function ParkIntro() {
             <div className="grid grid-cols-2 gap-3 h-[420px]">
               <div className="relative row-span-2 overflow-hidden rounded-sm group">
                 <Image
-                  src="/images/gallery/foto14-park-water-winter.jpg"
-                  alt="Piramidehuisjes aan het water in Gaastmeer"
+                  src="/images/gallery/foto-aanzicht.jpg"
+                  alt="Huisje 56 aan het water in Gaastmeer"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 768px) 50vw, 25vw"
@@ -55,8 +55,8 @@ export function ParkIntro() {
               </div>
               <div className="relative overflow-hidden rounded-sm group">
                 <Image
-                  src="/images/gallery/foto06-woonkamer-trap-water.jpg"
-                  alt="Woonkamer met uitzicht over het water"
+                  src="/images/gallery/foto-steiger.jpg"
+                  alt="Eigen aanlegsteiger met zeilboot"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="25vw"
@@ -64,8 +64,8 @@ export function ParkIntro() {
               </div>
               <div className="relative overflow-hidden rounded-sm group">
                 <Image
-                  src="/images/gallery/foto16-zonsondergang-bolderkar.jpg"
-                  alt="Zonsondergang bij het park met bolderkar"
+                  src="/images/gallery/foto-tuin.jpg"
+                  alt="Waterzijde tuin met rode kano"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="25vw"

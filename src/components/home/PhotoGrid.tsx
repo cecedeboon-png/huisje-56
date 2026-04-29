@@ -9,20 +9,20 @@ import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll'
 
 const gridPhotos = [
   {
-    src: '/images/gallery/foto13-terras-water.jpg',
+    src: '/images/gallery/foto-terras.jpg',
     alt: 'Steigerterras met uitzicht over het Gaastmeer',
   },
   {
-    src: '/images/gallery/foto07-woonkamer-schuifpui.jpg',
-    alt: 'Woonkamer met rode bank en zichtbare houten balken',
+    src: '/images/gallery/foto-woonkamer-uitzicht.jpg',
+    alt: 'Woonkamer met rotan stoelen en uitzicht naar het water',
   },
   {
-    src: '/images/gallery/foto09-slaapkamer-blauw.jpg',
-    alt: 'Slaapkamer met twee eenpersoonsbedden',
+    src: '/images/gallery/foto-keuken.jpg',
+    alt: 'Open keuken met granieten werkblad',
   },
   {
-    src: '/images/gallery/foto15-park-zomer-eenden.jpg',
-    alt: 'Piramidehuisje aan het water in Gaastmeer',
+    src: '/images/gallery/foto-aanzicht.jpg',
+    alt: 'Huisje 56 vanaf het water met afgemeerde zeilboot',
   },
 ]
 
