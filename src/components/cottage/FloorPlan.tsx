@@ -1,9 +1,12 @@
 'use client'
 
+import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
+import { Expand } from 'lucide-react'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 import { AnimateOnScroll, StaggerChildren } from '@/components/shared/AnimateOnScroll'
+import { ImageLightbox } from '@/components/shared/ImageLightbox'
 
 type FloorKey = 'groundFloor' | 'firstFloor' | 'outdoor'
 
@@ -37,6 +40,36 @@ const roomImages: Record<string, string> = {
 export function FloorPlan() {
   const t = useTranslations('cottage')
   const floors: FloorKey[] = ['groundFloor', 'firstFloor', 'outdoor']
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+  const [lightboxIndex, setLightboxIndex] = useState(0)
+
+  // Build a flat slides array in display order: per floor, the floor image first, then each room.
+  // We also track each (floor, room|null) -> slide index for click handling.
+  const slides: { src: string; alt: string }[] = []
+  const slideIndexByKey: Record<string, number> = {}
+
+  for (const floor of floors) {
+    const floorKey = `floor:${floor}`
+    slideIndexByKey[floorKey] = slides.length
+    slides.push({
+      src: floorImages[floor],
+      alt: t(`floors.${floor}.label`),
+    })
+    for (const room of floorRooms[floor]) {
+      if (!roomImages[room]) continue
+      const roomKey = `room:${floor}:${room}`
+      slideIndexByKey[roomKey] = slides.length
+      slides.push({
+        src: roomImages[room],
+        alt: t(`floors.${floor}.rooms.${room}.name`),
+      })
+    }
+  }
+
+  function openLightbox(index: number) {
+    setLightboxIndex(index)
+    setLightboxOpen(true)
+  }
 
   return (
     <section className="section-padding bg-white">
@@ -81,7 +114,12 @@ export function FloorPlan() {
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-start">
                 {/* Floor image */}
-                <div className="relative h-64 md:h-80 overflow-hidden rounded-sm group">
+                <button
+                  type="button"
+                  onClick={() => openLightbox(slideIndexByKey[`floor:${floor}`])}
+                  className="relative h-64 md:h-80 overflow-hidden rounded-sm group cursor-zoom-in w-full"
+                  aria-label={`Vergroot foto: ${t(`floors.${floor}.label`)}`}
+                >
                   <Image
                     src={floorImages[floor]}
                     alt={t(`floors.${floor}.label`)}
@@ -89,41 +127,69 @@ export function FloorPlan() {
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
-                </div>
+                  <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-all duration-300 flex items-center justify-center">
+                    <Expand
+                      size={28}
+                      className="text-white opacity-0 group-hover:opacity-100 transition-opacity drop-shadow"
+                    />
+                  </div>
+                </button>
 
                 {/* Rooms grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {floorRooms[floor].map((room) => (
-                    <div
-                      key={room}
-                      className="bg-stone-50 rounded-sm p-4 border border-stone-100 flex gap-3 transition-all duration-300 hover:shadow-sm hover:border-stone-200"
-                    >
-                      {roomImages[room] && (
-                        <div className="relative w-16 h-16 rounded-sm overflow-hidden shrink-0 group">
-                          <Image
-                            src={roomImages[room]}
-                            alt={t(`floors.${floor}.rooms.${room}.name`)}
-                            fill
-                            className="object-cover transition-transform duration-500 group-hover:scale-110"
-                            sizes="64px"
-                          />
+                  {floorRooms[floor].map((room) => {
+                    const roomSlideIndex = slideIndexByKey[`room:${floor}:${room}`]
+                    const hasImage = roomImages[room] !== undefined
+                    return (
+                      <div
+                        key={room}
+                        className="bg-stone-50 rounded-sm p-4 border border-stone-100 flex gap-3 transition-all duration-300 hover:shadow-sm hover:border-stone-200"
+                      >
+                        {hasImage && (
+                          <button
+                            type="button"
+                            onClick={() => openLightbox(roomSlideIndex)}
+                            className="relative w-16 h-16 rounded-sm overflow-hidden shrink-0 group cursor-zoom-in"
+                            aria-label={`Vergroot foto: ${t(`floors.${floor}.rooms.${room}.name`)}`}
+                          >
+                            <Image
+                              src={roomImages[room]}
+                              alt={t(`floors.${floor}.rooms.${room}.name`)}
+                              fill
+                              className="object-cover transition-transform duration-500 group-hover:scale-110"
+                              sizes="64px"
+                            />
+                            <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-all duration-300 flex items-center justify-center">
+                              <Expand
+                                size={14}
+                                className="text-white opacity-0 group-hover:opacity-100 transition-opacity"
+                              />
+                            </div>
+                          </button>
+                        )}
+                        <div className="min-w-0">
+                          <h4 className="font-display text-sm font-medium text-navy leading-snug mb-1">
+                            {t(`floors.${floor}.rooms.${room}.name`)}
+                          </h4>
+                          <p className="text-xs text-stone-500 font-body leading-relaxed line-clamp-3">
+                            {t(`floors.${floor}.rooms.${room}.desc`)}
+                          </p>
                         </div>
-                      )}
-                      <div className="min-w-0">
-                        <h4 className="font-display text-sm font-medium text-navy leading-snug mb-1">
-                          {t(`floors.${floor}.rooms.${room}.name`)}
-                        </h4>
-                        <p className="text-xs text-stone-500 font-body leading-relaxed line-clamp-3">
-                          {t(`floors.${floor}.rooms.${room}.desc`)}
-                        </p>
                       </div>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </div>
               </div>
             </AnimateOnScroll>
           ))}
         </div>
+
+        <ImageLightbox
+          slides={slides}
+          open={lightboxOpen}
+          index={lightboxIndex}
+          onClose={() => setLightboxOpen(false)}
+        />
       </div>
     </section>
   )
