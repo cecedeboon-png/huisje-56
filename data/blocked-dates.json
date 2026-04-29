@@ -1,25 +1,74 @@
 {
-  "lastUpdated": "2026-04-29T10:00:00Z",
+  "lastUpdated": "2026-04-29T12:00:00Z",
   "blockedRanges": [
     {
-      "id": "block-before-season",
-      "from": "2026-01-01",
-      "to": "2026-06-30",
-      "label": "Buiten beschikbare periode",
+      "id": "april-ledenvergadering",
+      "from": "2026-04-04",
+      "to": "2026-04-05",
+      "label": "Ledenvergadering",
       "isBooked": true
     },
     {
-      "id": "block-mid-july",
+      "id": "april-cor-glenn",
+      "from": "2026-04-07",
+      "to": "2026-04-10",
+      "label": "Cor en Glenn",
+      "isBooked": true
+    },
+    {
+      "id": "april-cece",
+      "from": "2026-04-24",
+      "to": "2026-04-26",
+      "label": "Cece",
+      "isBooked": true
+    },
+    {
+      "id": "mei-kurt",
+      "from": "2026-05-01",
+      "to": "2026-05-03",
+      "label": "Kurt",
+      "isBooked": true
+    },
+    {
+      "id": "mei-marileen-cees",
+      "from": "2026-05-15",
+      "to": "2026-05-17",
+      "label": "Marileen en Cees",
+      "isBooked": true
+    },
+    {
+      "id": "juni-cece",
+      "from": "2026-06-12",
+      "to": "2026-06-14",
+      "label": "Cece",
+      "isBooked": true
+    },
+    {
+      "id": "juni-lukas",
+      "from": "2026-06-26",
+      "to": "2026-06-29",
+      "label": "Lukas",
+      "isBooked": true
+    },
+    {
+      "id": "juli-kleinkinderen",
       "from": "2026-07-17",
       "to": "2026-07-19",
-      "label": "Bezet 17-19 juli",
+      "label": "Kleinkinderen",
       "isBooked": true
     },
     {
-      "id": "block-after-season",
+      "id": "augustus-naut",
       "from": "2026-08-14",
-      "to": "2027-12-31",
-      "label": "Buiten beschikbare periode",
+      "to": "2026-08-16",
+      "label": "Naut",
+      "isBooked": true
+    },
+    {
+      "id": "augustus-mimi",
+      "from": "2026-08-20",
+      "to": "2026-08-31",
+      "label": "Mimi",
       "isBooked": true
     }
   ]

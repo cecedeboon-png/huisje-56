@@ -59,7 +59,6 @@ export function AvailabilityCalendar({ onRangeSelect }: AvailabilityCalendarProp
             mode="range"
             selected={selected}
             onSelect={handleSelect}
-            defaultMonth={new Date(2026, 6, 1)}
             disabled={[
               { before: today },
               ...disabledDates,
