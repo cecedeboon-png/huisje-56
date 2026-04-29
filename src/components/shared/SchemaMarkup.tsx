@@ -4,7 +4,7 @@ export function SchemaMarkup() {
     '@type': 'LodgingBusiness',
     name: 'Huisje 56',
     description:
-      'Vrijstaand A-frame piramidehuisje direct aan het water op Recreatiepark de Liuwe Daem in Gaastmeer, Friesland. Eigen aanlegsteiger, steigerterras, 4 slaapkamers voor 8-10 personen.',
+      'Vrijstaand A-frame piramidehuisje direct aan het water op Recreatiepark de Liuwe Daem in Gaastmeer, Friesland. Eigen aanlegsteiger, steigerterras, 4 slaapkamers voor 6 personen.',
     url: 'https://huisje56.nl',
     image: 'https://huisje56.nl/images/gallery/foto08-park-water-zomer.jpg',
     address: {
@@ -20,7 +20,7 @@ export function SchemaMarkup() {
       latitude: 52.9856,
       longitude: 5.5582,
     },
-    telephone: process.env.OWNER_PHONE ?? '+31615615063',
+    telephone: process.env.OWNER_PHONE ?? '+31622522854',
     email: process.env.OWNER_EMAIL ?? 'liuwedaem56@gmail.com',
     priceRange: '€€',
     numberOfRooms: 4,
@@ -47,7 +47,7 @@ export function SchemaMarkup() {
       occupancy: {
         '@type': 'QuantitativeValue',
         minValue: 1,
-        maxValue: 10,
+        maxValue: 6,
       },
     },
   }

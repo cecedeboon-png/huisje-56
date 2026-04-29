@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import type { DateRange } from 'react-day-picker'
-import { PricingTable } from './PricingTable'
 import { AvailabilityCalendar } from './AvailabilityCalendar'
 import { InquiryForm } from './InquiryForm'
 
@@ -12,19 +11,27 @@ export function BookingPageClient() {
   const [selectedRange, setSelectedRange] = useState<DateRange | undefined>()
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-14">
-      <div className="lg:col-span-2">
-        <PricingTable />
+    <div className="max-w-3xl mx-auto space-y-10">
+      {/* Korte uitleg over tarieven */}
+      <div className="bg-white border border-stone-100 rounded-sm shadow-sm p-6 md:p-8">
+        <h2 className="font-display text-xl text-navy mb-3">
+          {t('rates.heading')}
+        </h2>
+        <p className="text-sm font-body text-stone-600 leading-relaxed">
+          {t('rates.note')}
+        </p>
       </div>
-      <div className="lg:col-span-3 space-y-8">
-        <div>
-          <h2 className="font-display text-2xl text-navy mb-4">
-            {t('calendar.heading')}
-          </h2>
-          <AvailabilityCalendar onRangeSelect={setSelectedRange} />
-        </div>
-        <InquiryForm selectedRange={selectedRange} />
+
+      {/* Beschikbaarheidskalender */}
+      <div>
+        <h2 className="font-display text-2xl text-navy mb-4">
+          {t('calendar.heading')}
+        </h2>
+        <AvailabilityCalendar onRangeSelect={setSelectedRange} />
       </div>
+
+      {/* Boekingsaanvraag */}
+      <InquiryForm selectedRange={selectedRange} />
     </div>
   )
 }

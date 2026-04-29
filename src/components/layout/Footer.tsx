@@ -85,11 +85,11 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+31615615063"
+                  href="tel:+31622522854"
                   className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors duration-300"
                 >
                   <Phone size={15} className="shrink-0 text-terracotta" />
-                  +31 6 15 61 50 63
+                  06-22522854
                 </a>
               </li>
             </ul>

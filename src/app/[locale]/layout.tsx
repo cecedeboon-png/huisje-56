@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     default: 'Huisje 56 Gaastmeer | Vakantiehuisje aan het water in Friesland',
   },
   description:
-    'Huurvakantiehuis direct aan het water in Gaastmeer, Friesland. Eigen aanlegsteiger, steigerterras, 4 slaapkamers voor 8-10 personen. Autovrij park.',
+    'Huurvakantiehuis direct aan het water in Gaastmeer, Friesland. Eigen aanlegsteiger, steigerterras, 4 slaapkamers voor 6 personen. Autovrij park.',
   openGraph: {
     type: 'website',
     siteName: 'Huisje 56 Gaastmeer',

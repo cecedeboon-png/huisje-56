@@ -29,8 +29,8 @@
         "desc": "Ihr Auto steht sicher auf dem Parkplatz. Gepäck bringen Sie mit einem Bollerwagen zum Haus — herrliche Ruhe."
       },
       "guests": {
-        "title": "Bis zu 10 Personen",
-        "desc": "Vier Schlafzimmer, ein Babyzimmer und eine Schlafcouch im Wohnzimmer. Platz für die ganze Familie."
+        "title": "Bis zu 6 Personen",
+        "desc": "Vier Schlafzimmer und ein Babyzimmer. Platz für die ganze Familie."
       },
       "location": {
         "title": "Direkt am Wasser",
@@ -81,13 +81,13 @@
   "cottage": {
     "heading": "Das Ferienhaus",
     "subheading": "Freistehendes A-Frame Pyramidenhaus direkt am Wasser",
-    "intro": "Huisje 56 ist ein freistehendes Pyramidenhaus mit Holzskelett und Satteldach, erbaut 1974 und über die Jahre modernisiert. Mit ca. 70 m² Wohnfläche und einem Grundstück von 85 m² bietet es Platz für maximal 8-10 Personen. Die großzügige Stegterrasse direkt am Wasser macht jeden Morgen zu einem Fest.",
+    "intro": "Huisje 56 ist ein freistehendes Pyramidenhaus mit Holzskelett und Satteldach, erbaut 1974 und über die Jahre modernisiert. Mit ca. 70 m² Wohnfläche und einem Grundstück von 85 m² bietet es Platz für maximal 6 Personen. Die großzügige Stegterrasse direkt am Wasser macht jeden Morgen zu einem Fest.",
     "specs": {
       "heading": "Auf einen Blick",
       "items": {
         "area": "~70 m² Wohnfläche",
         "plot": "85 m² Grundstück",
-        "capacity": "Max. 8-10 Personen",
+        "capacity": "Max. 6 Personen",
         "bedrooms": "4 Schlafzimmer + Babyzimmer",
         "built": "Baujahr ca. 1974 (modernisiert)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
@@ -210,23 +210,9 @@
   "booking": {
     "heading": "Preise & Buchen",
     "subheading": "Verfügbarkeit prüfen und Anfrage senden",
-    "intro": "Wir vermieten Huisje 56 direkt — ohne Buchungsgebühren. Senden Sie uns eine Anfrage für den gewünschten Zeitraum und wir melden uns so bald wie möglich.",
-    "pricing": {
-      "heading": "Preise",
-      "note": "Preise sind pro Woche, sofern nicht anders angegeben. Mindestens 3 Nächte außerhalb der Hauptsaison.",
-      "seasons": {
-        "low": { "label": "Nebensaison", "period": "November – März (außer Weihnachten/Silvester)", "weekPrice": "€ 695", "nightPrice": "€ 99", "minNights": "3 Nächte" },
-        "mid": { "label": "Zwischensaison", "period": "April, Mai, September, Oktober", "weekPrice": "€ 895", "nightPrice": "€ 128", "minNights": "4 Nächte" },
-        "high": { "label": "Hauptsaison", "period": "Juni, Juli, August", "weekPrice": "€ 1.195", "nightPrice": "€ 171", "minNights": "7 Nächte (Sa–Sa)" },
-        "peak": { "label": "Feiertage & Schulferien", "period": "Weihnachten, Silvester, Frühjahrsferien, Maiferien, Herbstferien", "weekPrice": "€ 1.095", "nightPrice": "€ 156", "minNights": "5 Nächte" }
-      },
-      "extras": {
-        "heading": "Zusätzliche Kosten",
-        "cleaning": "Endreinigung: € 95",
-        "deposit": "Kaution: € 250 (nach dem Aufenthalt zurückerstattet)",
-        "energy": "Energiekosten: nach Verbrauch (Sommer ca. € 30-50/Woche)",
-        "tourist": "Kurtaxe: € 1,50 p.P.p.N."
-      }
+    "rates": {
+      "heading": "Preise auf Anfrage",
+      "note": "Wir vermieten Huisje 56 direkt — ohne Buchungsgebühren. Die Preise hängen vom Zeitraum und der Aufenthaltsdauer ab und besprechen wir gerne persönlich. Senden Sie uns eine Buchungsanfrage über das Formular unten und wir teilen Ihnen den Preis so schnell wie möglich mit."
     },
     "calendar": {
       "heading": "Verfügbarkeitskalender",
@@ -270,7 +256,7 @@
       "heading": "Kontaktdaten",
       "address": "Liuwedaem 56\n8611 JJ Gaastmeer\nFriesland, Niederlande",
       "email": "info@huisje56.nl",
-      "phone": "+31 6 00 00 00 00"
+      "phone": "06-22522854"
     },
     "route": {
       "heading": "Anfahrt",
@@ -308,7 +294,7 @@
     "siteName": "Huisje 56 Gaastmeer",
     "home": {
       "title": "Huisje 56 Gaastmeer | Ferienhaus am Wasser in Friesland",
-      "description": "Ferienhaus direkt am Wasser in Gaastmeer, Friesland. Eigener Bootssteg, Terrasse am Wasser, 4 Schlafzimmer für 8-10 Personen. Autofreier Ferienpark."
+      "description": "Ferienhaus direkt am Wasser in Gaastmeer, Friesland. Eigener Bootssteg, Terrasse am Wasser, 4 Schlafzimmer für 6 Personen. Autofreier Ferienpark."
     },
     "cottage": {
       "title": "Das Ferienhaus | Huisje 56 Gaastmeer",
@@ -320,7 +306,7 @@
     },
     "booking": {
       "title": "Preise & Buchen | Huisje 56 Gaastmeer",
-      "description": "Preise und Verfügbarkeit von Huisje 56 in Gaastmeer prüfen. Buchungsanfrage für Ihren gewünschten Zeitraum senden."
+      "description": "Verfügbarkeit von Huisje 56 in Gaastmeer prüfen und Buchungsanfrage senden. Preise auf Anfrage."
     },
     "contact": {
       "title": "Kontakt | Huisje 56 Gaastmeer",

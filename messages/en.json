@@ -29,8 +29,8 @@
         "desc": "Your car stays safely in the car park. Bring luggage to the cottage by trolley — blissful peace and quiet."
       },
       "guests": {
-        "title": "Up to 10 guests",
-        "desc": "Four bedrooms, a baby room and a sofa bed in the living room. Space for the whole family."
+        "title": "Up to 6 guests",
+        "desc": "Four bedrooms and a baby room. Space for the whole family."
       },
       "location": {
         "title": "Waterfront location",
@@ -81,13 +81,13 @@
   "cottage": {
     "heading": "The Cottage",
     "subheading": "Detached A-frame pyramid cottage directly on the water",
-    "intro": "Huisje 56 is a detached pyramid-shaped cottage with a wooden frame and pitched roof, built in 1974 and modernised over the years. With approximately 70 m² of living space and a plot of 85 m², it comfortably accommodates up to 8-10 persons. The generous decked terrace directly on the water makes every morning a delight.",
+    "intro": "Huisje 56 is a detached pyramid-shaped cottage with a wooden frame and pitched roof, built in 1974 and modernised over the years. With approximately 70 m² of living space and a plot of 85 m², it comfortably accommodates up to 6 persons. The generous decked terrace directly on the water makes every morning a delight.",
     "specs": {
       "heading": "At a glance",
       "items": {
         "area": "~70 m² living space",
         "plot": "85 m² plot",
-        "capacity": "Max. 8-10 persons",
+        "capacity": "Max. 6 persons",
         "bedrooms": "4 bedrooms + baby room",
         "built": "Built approx. 1974 (modernised)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
@@ -210,23 +210,9 @@
   "booking": {
     "heading": "Prices & Book",
     "subheading": "Check availability and send your enquiry",
-    "intro": "We rent Huisje 56 directly — no booking fees. Send us an enquiry for the period you wish and we will be in touch as soon as possible.",
-    "pricing": {
-      "heading": "Rates",
-      "note": "Prices are per week unless otherwise stated. Minimum 3 nights outside high season.",
-      "seasons": {
-        "low": { "label": "Low season", "period": "November – March (excl. Christmas/New Year)", "weekPrice": "€ 695", "nightPrice": "€ 99", "minNights": "3 nights" },
-        "mid": { "label": "Mid season", "period": "April, May, September, October", "weekPrice": "€ 895", "nightPrice": "€ 128", "minNights": "4 nights" },
-        "high": { "label": "High season", "period": "June, July, August", "weekPrice": "€ 1,195", "nightPrice": "€ 171", "minNights": "7 nights (Sat–Sat)" },
-        "peak": { "label": "Holidays & School breaks", "period": "Christmas, New Year, spring, May & autumn half-terms", "weekPrice": "€ 1,095", "nightPrice": "€ 156", "minNights": "5 nights" }
-      },
-      "extras": {
-        "heading": "Additional costs",
-        "cleaning": "Final cleaning: € 95",
-        "deposit": "Security deposit: € 250 (returned after stay)",
-        "energy": "Energy costs: based on consumption (summer approx. € 30-50/week)",
-        "tourist": "Tourist tax: € 1.50 p.p.p.n."
-      }
+    "rates": {
+      "heading": "Rates on request",
+      "note": "We rent Huisje 56 directly — no booking fees. Rates depend on the period and length of stay and we are happy to discuss them with you. Send us a booking enquiry via the form below and we will share a quote as soon as possible."
     },
     "calendar": {
       "heading": "Availability calendar",
@@ -270,7 +256,7 @@
       "heading": "Contact details",
       "address": "Liuwedaem 56\n8611 JJ Gaastmeer\nFriesland",
       "email": "info@huisje56.nl",
-      "phone": "+31 6 00 00 00 00"
+      "phone": "06-22522854"
     },
     "route": {
       "heading": "Directions",
@@ -308,7 +294,7 @@
     "siteName": "Huisje 56 Gaastmeer",
     "home": {
       "title": "Huisje 56 Gaastmeer | Holiday cottage on the water in Friesland",
-      "description": "Waterfront holiday cottage in Gaastmeer, Friesland. Private jetty, terrace on the water, 4 bedrooms for 8-10 persons. Car-free park."
+      "description": "Waterfront holiday cottage in Gaastmeer, Friesland. Private jetty, terrace on the water, 4 bedrooms for 6 persons. Car-free park."
     },
     "cottage": {
       "title": "The Cottage | Huisje 56 Gaastmeer",
@@ -320,7 +306,7 @@
     },
     "booking": {
       "title": "Prices & Book | Huisje 56 Gaastmeer",
-      "description": "View rates and availability for Huisje 56 in Gaastmeer. Send a booking enquiry for your desired period."
+      "description": "Check availability of Huisje 56 in Gaastmeer and send a booking enquiry. Rates shared on request."
     },
     "contact": {
       "title": "Contact | Huisje 56 Gaastmeer",

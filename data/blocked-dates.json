@@ -1,18 +1,25 @@
 {
-  "lastUpdated": "2026-03-14T10:00:00Z",
+  "lastUpdated": "2026-04-29T10:00:00Z",
   "blockedRanges": [
     {
-      "id": "example-booking-1",
-      "from": "2026-07-04",
-      "to": "2026-07-18",
-      "label": "Voorbeeld boeking zomer",
+      "id": "block-before-season",
+      "from": "2026-01-01",
+      "to": "2026-06-30",
+      "label": "Buiten beschikbare periode",
       "isBooked": true
     },
     {
-      "id": "example-booking-2",
-      "from": "2026-08-01",
-      "to": "2026-08-15",
-      "label": "Voorbeeld boeking augustus",
+      "id": "block-mid-july",
+      "from": "2026-07-17",
+      "to": "2026-07-19",
+      "label": "Bezet 17-19 juli",
+      "isBooked": true
+    },
+    {
+      "id": "block-after-season",
+      "from": "2026-08-14",
+      "to": "2027-12-31",
+      "label": "Buiten beschikbare periode",
       "isBooked": true
     }
   ]

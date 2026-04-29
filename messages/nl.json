@@ -29,8 +29,8 @@
         "desc": "Je auto staat veilig op de parkeerplaats. Bagage breng je met een bolderkar naar het huisje — heerlijke rust."
       },
       "guests": {
-        "title": "Tot 10 personen",
-        "desc": "Vier slaapkamers, een babykamer en een slaapbank in de woonkamer. Ruimte voor het hele gezin."
+        "title": "Tot 6 personen",
+        "desc": "Vier slaapkamers en een babykamer. Ruimte voor het hele gezin."
       },
       "location": {
         "title": "Direct aan het water",
@@ -81,13 +81,13 @@
   "cottage": {
     "heading": "Het Huisje",
     "subheading": "Vrijstaand A-frame piramidehuisje direct aan het water",
-    "intro": "Huisje 56 is een vrijstaand piramidehuisje met een houten skelet en zadeldak, gebouwd in 1974 en door de jaren heen gemoderniseerd. Met circa 70 m² woonoppervlakte en een perceel van 85 m² biedt het ruimte voor maximaal 8-10 personen. Het royale steigerterras direct aan het water maakt iedere ochtend tot een feest.",
+    "intro": "Huisje 56 is een vrijstaand piramidehuisje met een houten skelet en zadeldak, gebouwd in 1974 en door de jaren heen gemoderniseerd. Met circa 70 m² woonoppervlakte en een perceel van 85 m² biedt het ruimte voor maximaal 6 personen. Het royale steigerterras direct aan het water maakt iedere ochtend tot een feest.",
     "specs": {
       "heading": "Op een rij",
       "items": {
         "area": "~70 m² woonoppervlakte",
         "plot": "85 m² perceel",
-        "capacity": "Max. 8-10 personen",
+        "capacity": "Max. 6 personen",
         "bedrooms": "4 slaapkamers + babykamer",
         "built": "Gebouwd ca. 1974 (gemoderniseerd)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
@@ -269,48 +269,10 @@
   },
   "booking": {
     "heading": "Prijzen & Boeken",
-    "subheading": "Controleer de beschikbaarheid en vraag je verblijf aan",
-    "intro": "Huisje 56 verhuren we rechtstreeks — geen bemiddelingskosten. Stuur ons een aanvraag voor de gewenste periode en we nemen zo snel mogelijk contact met je op.",
-    "pricing": {
-      "heading": "Tarieven",
-      "note": "Prijzen zijn per week, tenzij anders vermeld. Minimaal 3 nachten buiten het hoogseizoen.",
-      "seasons": {
-        "low": {
-          "label": "Laagseizoen",
-          "period": "November – maart (excl. kerst/oud & nieuw)",
-          "weekPrice": "€ 695",
-          "nightPrice": "€ 99",
-          "minNights": "3 nachten"
-        },
-        "mid": {
-          "label": "Tussenseizoen",
-          "period": "April, mei, september, oktober",
-          "weekPrice": "€ 895",
-          "nightPrice": "€ 128",
-          "minNights": "4 nachten"
-        },
-        "high": {
-          "label": "Hoogseizoen",
-          "period": "Juni, juli, augustus",
-          "weekPrice": "€ 1.195",
-          "nightPrice": "€ 171",
-          "minNights": "7 nachten (za–za)"
-        },
-        "peak": {
-          "label": "Feestdagen & Vakanties",
-          "period": "Kerst, oud & nieuw, voorjaarsvakantie, meivakantie, herfstvakantie",
-          "weekPrice": "€ 1.095",
-          "nightPrice": "€ 156",
-          "minNights": "5 nachten"
-        }
-      },
-      "extras": {
-        "heading": "Bijkomende kosten",
-        "cleaning": "Eindschoonmaak: € 95",
-        "deposit": "Borgsom: € 250 (na verblijf teruggestort)",
-        "energy": "Energiekosten: op basis van verbruik (zomer ca. € 30-50/week)",
-        "tourist": "Toeristenbelasting: € 1,50 p.p.p.n."
-      }
+    "subheading": "Bekijk de beschikbaarheid en stuur ons je aanvraag",
+    "rates": {
+      "heading": "Tarieven in overleg",
+      "note": "We verhuren Huisje 56 rechtstreeks — geen bemiddelingskosten. De tarieven zijn afhankelijk van de periode en duur van het verblijf en bespreken we graag persoonlijk. Stuur ons een boekingsaanvraag via het formulier hieronder en we delen de prijsopgave zo snel mogelijk met je."
     },
     "calendar": {
       "heading": "Beschikbaarheidskalender",
@@ -354,7 +316,7 @@
       "heading": "Contactgegevens",
       "address": "Liuwedaem 56\n8611 JJ Gaastmeer\nFriesland",
       "email": "info@huisje56.nl",
-      "phone": "+31 6 00 00 00 00"
+      "phone": "06-22522854"
     },
     "route": {
       "heading": "Routebeschrijving",
@@ -392,7 +354,7 @@
     "siteName": "Huisje 56 Gaastmeer",
     "home": {
       "title": "Huisje 56 Gaastmeer | Vakantiehuisje aan het water in Friesland",
-      "description": "Huurvakantiehuis direct aan het water in Gaastmeer, Friesland. Eigen aanlegsteiger, steigerterras, 4 slaapkamers voor 8-10 personen. Autovrij park."
+      "description": "Huurvakantiehuis direct aan het water in Gaastmeer, Friesland. Eigen aanlegsteiger, steigerterras, 4 slaapkamers voor 6 personen. Autovrij park."
     },
     "cottage": {
       "title": "Het Huisje | Huisje 56 Gaastmeer",
@@ -404,7 +366,7 @@
     },
     "booking": {
       "title": "Prijzen & Boeken | Huisje 56 Gaastmeer",
-      "description": "Bekijk de tarieven en beschikbaarheid van Huisje 56 in Gaastmeer. Stuur een boekingsaanvraag voor je gewenste periode."
+      "description": "Bekijk de beschikbaarheid van Huisje 56 in Gaastmeer en stuur een boekingsaanvraag. Tarieven worden in overleg gedeeld."
     },
     "contact": {
       "title": "Contact | Huisje 56 Gaastmeer",

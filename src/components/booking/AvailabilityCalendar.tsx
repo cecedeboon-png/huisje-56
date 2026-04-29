@@ -46,7 +46,7 @@ export function AvailabilityCalendar({ onRangeSelect }: AvailabilityCalendarProp
   const today = startOfToday()
 
   return (
-    <div className="bg-white border border-stone-100 rounded-sm shadow-sm p-4 md:p-6">
+    <div className="bg-white border border-stone-100 rounded-sm shadow-sm p-4 md:p-6 overflow-hidden">
       <p className="text-sm text-stone-500 font-body mb-4">{t('instruction')}</p>
 
       {loading ? (
@@ -54,35 +54,40 @@ export function AvailabilityCalendar({ onRangeSelect }: AvailabilityCalendarProp
           Beschikbaarheid laden...
         </div>
       ) : (
-        <DayPicker
-          mode="range"
-          selected={selected}
-          onSelect={handleSelect}
-          disabled={[
-            { before: today },
-            ...disabledDates,
-          ]}
-          numberOfMonths={2}
-          locale={localeMap[locale]}
-          classNames={{
-            root: 'rdp-root',
-            months: 'flex flex-col md:flex-row gap-6',
-            month_caption: 'font-display text-navy text-base capitalize mb-3',
-            nav: 'flex items-center gap-1',
-            button_previous: 'p-1.5 hover:bg-stone-100 rounded transition-colors text-navy',
-            button_next: 'p-1.5 hover:bg-stone-100 rounded transition-colors text-navy',
-            weekday: 'text-xs text-stone-400 font-body font-medium uppercase',
-            day: 'h-9 w-9 text-sm font-body',
-            day_button: 'h-9 w-9 rounded hover:bg-navy/10 transition-colors',
-            selected: 'bg-navy text-white rounded',
-            range_start: 'bg-navy text-white rounded-l',
-            range_end: 'bg-navy text-white rounded-r',
-            range_middle: 'bg-navy/15 text-navy',
-            disabled: 'text-stone-300 line-through cursor-not-allowed opacity-60',
-            outside: 'text-stone-200',
-            today: 'font-bold text-terracotta',
-          }}
-        />
+        <div className="flex justify-center">
+          <DayPicker
+            mode="range"
+            selected={selected}
+            onSelect={handleSelect}
+            defaultMonth={new Date(2026, 6, 1)}
+            disabled={[
+              { before: today },
+              ...disabledDates,
+            ]}
+            numberOfMonths={2}
+            locale={localeMap[locale]}
+            classNames={{
+              root: 'rdp-root',
+              months: 'flex flex-col lg:flex-row gap-6 justify-center',
+              month: 'w-full max-w-[19rem] mx-auto',
+              month_caption: 'font-display text-navy text-base capitalize mb-3 text-center',
+              nav: 'flex items-center gap-1',
+              button_previous: 'p-1.5 hover:bg-stone-100 rounded transition-colors text-navy',
+              button_next: 'p-1.5 hover:bg-stone-100 rounded transition-colors text-navy',
+              month_grid: 'w-full table-fixed',
+              weekday: 'text-xs text-stone-400 font-body font-medium uppercase text-center',
+              day: 'aspect-square text-sm font-body p-0 text-center',
+              day_button: 'w-full h-full aspect-square rounded hover:bg-navy/10 transition-colors',
+              selected: 'bg-navy text-white rounded',
+              range_start: 'bg-navy text-white rounded-l',
+              range_end: 'bg-navy text-white rounded-r',
+              range_middle: 'bg-navy/15 text-navy',
+              disabled: 'text-stone-300 line-through cursor-not-allowed opacity-60',
+              outside: 'text-stone-200',
+              today: 'font-bold text-terracotta',
+            }}
+          />
+        </div>
       )}
 
       {/* Legend */}

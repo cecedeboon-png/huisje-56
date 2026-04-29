@@ -63,11 +63,11 @@ export default async function ContactPage({
                     liuwedaem56@gmail.com
                   </a>
                   <a
-                    href="tel:+31615615063"
+                    href="tel:+31622522854"
                     className="flex items-center gap-3 text-sm font-body text-stone-600 hover:text-navy transition-colors"
                   >
                     <Phone size={18} className="text-terracotta shrink-0" />
-                    +31 6 15 61 50 63
+                    06-22522854
                   </a>
                 </div>
               </div>
