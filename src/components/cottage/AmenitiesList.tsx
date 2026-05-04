@@ -4,14 +4,12 @@ import { useTranslations } from 'next-intl'
 import {
   Wifi,
   Thermometer,
-  Shield,
   UtensilsCrossed,
   ShowerHead,
   WashingMachine,
   Tv,
   Anchor,
   Umbrella,
-  Baby,
   ParkingCircle,
   Zap,
   Waves,
@@ -22,7 +20,6 @@ import { AnimateOnScroll, StaggerChildren } from '@/components/shared/AnimateOnS
 
 const amenityIcons: Record<string, React.ElementType> = {
   heating: Thermometer,
-  doubleGlazing: Shield,
   furnished: Umbrella,
   kitchen: UtensilsCrossed,
   bathroom: ShowerHead,
@@ -31,7 +28,6 @@ const amenityIcons: Record<string, React.ElementType> = {
   wifi: Wifi,
   jetty: Anchor,
   terrace: Waves,
-  baby: Baby,
   parking: ParkingCircle,
   ev: Zap,
   playground: Waves,

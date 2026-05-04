@@ -29,7 +29,7 @@
         "desc": "Your car stays safely in the car park. Bring luggage to the cottage by trolley — blissful peace and quiet."
       },
       "guests": {
-        "title": "Up to 6 guests",
+        "title": "Up to 8 guests",
         "desc": "Four bedrooms across two floors. Space for the whole family."
       },
       "location": {
@@ -81,13 +81,13 @@
   "cottage": {
     "heading": "The Cottage",
     "subheading": "Detached A-frame pyramid cottage directly on the water",
-    "intro": "Huisje 56 is a detached pyramid-shaped cottage with a wooden frame and pitched roof, built in 1974 and modernised over the years. With approximately 70 m² of living space and a plot of 85 m², it comfortably accommodates up to 6 persons. The generous decked terrace directly on the water makes every morning a delight.",
+    "intro": "Huisje 56 is a detached pyramid-shaped cottage with a wooden frame and pitched roof, built in 1974 and modernised over the years. With approximately 70 m² of living space and a plot of 85 m², it comfortably accommodates up to 8 persons. The generous decked terrace directly on the water makes every morning a delight.",
     "specs": {
       "heading": "At a glance",
       "items": {
         "area": "~70 m² living space",
         "plot": "85 m² plot",
-        "capacity": "Max. 6 persons",
+        "capacity": "Max. 8 persons",
         "bedrooms": "4 bedrooms",
         "built": "Built approx. 1974 (modernised)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
@@ -134,7 +134,6 @@
       "heading": "Amenities",
       "items": {
         "heating": "Central heating (CH)",
-        "doubleGlazing": "Double glazing",
         "furnished": "Furnished",
         "kitchen": "Fully equipped kitchen",
         "bathroom": "Bathroom with shower",
@@ -143,7 +142,6 @@
         "wifi": "WiFi",
         "jetty": "Private jetty",
         "terrace": "Waterfront terrace",
-        "baby": "Baby cot available",
         "parking": "Private parking space",
         "ev": "EV charging point on park",
         "playground": "Play & swim area on park",
@@ -294,7 +292,7 @@
     "siteName": "Huisje 56 Gaastmeer",
     "home": {
       "title": "Huisje 56 Gaastmeer | Holiday cottage on the water in Friesland",
-      "description": "Waterfront holiday cottage in Gaastmeer, Friesland. Private jetty, terrace on the water, 4 bedrooms for 6 persons. Car-free park."
+      "description": "Waterfront holiday cottage in Gaastmeer, Friesland. Private jetty, terrace on the water, 4 bedrooms for 8 persons. Car-free park."
     },
     "cottage": {
       "title": "The Cottage | Huisje 56 Gaastmeer",

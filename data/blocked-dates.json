@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T12:00:00Z",
+  "lastUpdated": "2026-04-29T16:00:00Z",
   "blockedRanges": [
     {
       "id": "april-ledenvergadering",
@@ -48,6 +48,13 @@
       "from": "2026-06-26",
       "to": "2026-06-29",
       "label": "Lukas",
+      "isBooked": true
+    },
+    {
+      "id": "juli-vroeg",
+      "from": "2026-07-09",
+      "to": "2026-07-14",
+      "label": "Geboekt",
       "isBooked": true
     },
     {

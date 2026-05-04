@@ -29,7 +29,7 @@
         "desc": "Ihr Auto steht sicher auf dem Parkplatz. Gepäck bringen Sie mit einem Bollerwagen zum Haus — herrliche Ruhe."
       },
       "guests": {
-        "title": "Bis zu 6 Personen",
+        "title": "Bis zu 8 Personen",
         "desc": "Vier Schlafzimmer auf zwei Etagen. Platz für die ganze Familie."
       },
       "location": {
@@ -81,13 +81,13 @@
   "cottage": {
     "heading": "Das Ferienhaus",
     "subheading": "Freistehendes A-Frame Pyramidenhaus direkt am Wasser",
-    "intro": "Huisje 56 ist ein freistehendes Pyramidenhaus mit Holzskelett und Satteldach, erbaut 1974 und über die Jahre modernisiert. Mit ca. 70 m² Wohnfläche und einem Grundstück von 85 m² bietet es Platz für maximal 6 Personen. Die großzügige Stegterrasse direkt am Wasser macht jeden Morgen zu einem Fest.",
+    "intro": "Huisje 56 ist ein freistehendes Pyramidenhaus mit Holzskelett und Satteldach, erbaut 1974 und über die Jahre modernisiert. Mit ca. 70 m² Wohnfläche und einem Grundstück von 85 m² bietet es Platz für maximal 8 Personen. Die großzügige Stegterrasse direkt am Wasser macht jeden Morgen zu einem Fest.",
     "specs": {
       "heading": "Auf einen Blick",
       "items": {
         "area": "~70 m² Wohnfläche",
         "plot": "85 m² Grundstück",
-        "capacity": "Max. 6 Personen",
+        "capacity": "Max. 8 Personen",
         "bedrooms": "4 Schlafzimmer",
         "built": "Baujahr ca. 1974 (modernisiert)",
         "address": "Liuwedaem 56, 8611 JJ Gaastmeer"
@@ -134,7 +134,6 @@
       "heading": "Ausstattung",
       "items": {
         "heating": "Zentralheizung",
-        "doubleGlazing": "Doppelverglasung",
         "furnished": "Möbliert",
         "kitchen": "Voll ausgestattete Küche",
         "bathroom": "Badezimmer mit Dusche",
@@ -143,7 +142,6 @@
         "wifi": "WLAN",
         "jetty": "Eigener Bootssteg",
         "terrace": "Terrasse am Wasser",
-        "baby": "Babybett verfügbar",
         "parking": "Eigener Stellplatz",
         "ev": "Ladestation im Park (E-Auto)",
         "playground": "Spiel- und Schwimmbereich",
@@ -294,7 +292,7 @@
     "siteName": "Huisje 56 Gaastmeer",
     "home": {
       "title": "Huisje 56 Gaastmeer | Ferienhaus am Wasser in Friesland",
-      "description": "Ferienhaus direkt am Wasser in Gaastmeer, Friesland. Eigener Bootssteg, Terrasse am Wasser, 4 Schlafzimmer für 6 Personen. Autofreier Ferienpark."
+      "description": "Ferienhaus direkt am Wasser in Gaastmeer, Friesland. Eigener Bootssteg, Terrasse am Wasser, 4 Schlafzimmer für 8 Personen. Autofreier Ferienpark."
     },
     "cottage": {
       "title": "Das Ferienhaus | Huisje 56 Gaastmeer",
